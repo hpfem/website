@@ -1,4 +1,4 @@
-<?require_once('../header.php');?>
+<?phprequire_once('../header.php');?>
 
 <div class="right" style="width: 180px;">
 
@@ -84,4 +84,4 @@ See the <a href="http://git.hpfem.org/hermes.git/blob/HEAD:/AUTHORS">AUTHORS</a>
 
 
 
-<?require_once('../footer.php');?>
+<?phprequire_once('../footer.php');?>

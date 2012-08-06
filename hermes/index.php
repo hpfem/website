@@ -1,4 +1,4 @@
-<?require_once('../header.php');?>
+<?phprequire_once('../header.php');?>
 
 <div class="right" style="width: 180px;">
 
@@ -110,4 +110,4 @@ at the University of Nevada, Reno (UNR). You are very welcome to contribute. Eac
 automatically become a co-author of the library.
 </div>
 
-<?require_once('../footer.php');?>
+<?phprequire_once('../footer.php');?>

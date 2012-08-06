@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta charset="UTF-8" />
@@ -8,8 +8,9 @@
   <link rel="stylesheet" type="text/css" href="../_style/femgroup_screen.css" media="screen, tv, projection" title="Default" />
   <link rel="stylesheet alternative" type="text/css" href="../_style/femgroup_print.css" media="screen" title="Print Preview" />
   <link rel="stylesheet" type="text/css" href="../_style/femgroup_print.css" media="print" />
+  <script src="js/jquery.js" type="text/javascript"></script>
   <script src="../_player/flowplayer.js"></script>
-  <title>hpfem.org: free adaptive hp-FEM</title>
+  <title>hpFEM.org group</title>
 
 <script type="text/javascript">
 
@@ -30,13 +31,22 @@
     <div id="header">
       <div class="superHeader">&nbsp;</div>
       <div class="midHeader">
-        <div class="headerUNRLogo doNotPrint"><img src="../_images/unr_logo.jpg" alt="UNR Logo" /></div>
-        <div class="headerITLogo doNotPrint"><img src="../_images/it_logo.gif" alt="IT logo" /></div>
+        <div id="UNRLogo" onmouseover="$(this).css('opacity', 1.0);$('#ZCULogo').css('opacity', 0.7);$('#ITAVLogo').css('opacity', 0.7);" onmouseout="$(this).css('opacity', 0.9);$('#ZCULogo').css('opacity', 0.9);$('#ITAVLogo').css('opacity', 0.9);" class="logo1 doNotPrint">
+          <a href="http://www.unr.edu" target="blank"><img src="../_images/unr_logo.png" alt="University of Nevada, Reno" title="University of Nevada, Reno" /></a>
+        </div>
+        <div id="ZCULogo" onmouseover="$(this).css('opacity', 1.0);$('#UNRLogo').css('opacity', 0.8);$('#ITAVLogo').css('opacity', 0.8);" onmouseout="$(this).css('opacity', 0.9);$('#UNRLogo').css('opacity', 0.9);$('#ITAVLogo').css('opacity', 0.9);" class="logo3 doNotPrint">
+          <a href="http://www.zcu.cz" target="blank"><img src="../_images/zcu_logo.png" alt="University of West Bohemia, Pilsen" title="University of West Bohemia, Pilsen" /></a>
+        </div>
+        <div id="ITAVLogo" onmouseover="$(this).css('opacity', 1.0);$('#ZCULogo').css('opacity', 0.8);$('#UNRLogo').css('opacity', 0.8);" onmouseout="$(this).css('opacity', 0.9);$('#ZCULogo').css('opacity', 0.9);$('#UNRLogo').css('opacity', 0.9);" class="logo2 doNotPrint">
+          <a href="www.it.cas.cz" target="blank"><img src="../_images/it_logo.png" alt="Institute of Thermomechanics, Prague" title="Institute of Thermomechanics, Prague" /></a>
+        </div>
+        
+        <div class="headerITLogo doNotPrint"><img src="../_images/header.png" alt="Hermes Gallery" style="z-index:3;" title="Hermes Gallery" /></div>
         <div class="midHeaderBody">
-          <div class="headerTitle">hpfem.org</div>
+          <div class="headerTitle">hpFEM.org</div>
           <div class="headerSubTitle">University of Nevada, Reno</div>
-          <div class="headerSubTitle">Institute of Thermomechanics, Prague</div>
           <div class="headerSubTitle">University of West Bohemia, Pilsen</div>
+          <div class="headerSubTitle">Institute of Thermomechanics, Prague</div>
         </div>
       </div>
       <div class="subHeader">

@@ -1,4 +1,4 @@
-<?require_once('../header.php');?>
+<?phprequire_once('../header.php');?>
 
 <div class="right" style="width: 250px;">
 
@@ -205,4 +205,4 @@ Proceedings: Journal of Computational and Applied Mathematics (has impact factor
 </ul>
 
 
-<?require_once('../footer.php');?>
+<?phprequire_once('../footer.php');?>

@@ -1,4 +1,4 @@
-<?require_once('../header.php');?>
+<?phprequire_once('../header.php');?>
 
 <div class="right" style="width: 180px;">
 
@@ -271,4 +271,4 @@ singular electric field in a domain with re-entrant corner.
 
 <a href="/movies/hpadapt/mesherror.avi">Reduction of error during automatic hp-adaptivity</a><br>
 
-<?require_once('../footer.php');?>
+<?phprequire_once('../footer.php');?>

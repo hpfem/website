@@ -1,129 +1,24 @@
-<?phprequire_once('../header.php');?>
-
-<table>
-
-<tr valign="top">
-<td style="width: 170px; padding-right: 10px;">
-<div class="left">
-
-<h3>Open Source Projects</h3>
-
-<a href="http://hpfem.org/hermes/">Hermes</a>, 
-<a href="http://agros2d.org/">Agros2D</a>, 
-<a href="http://femhub.org/">FEMhub Distribution</a>, 
-<a href="http://hpfem.org/himg/">Himg</a>, 
-<a href="http://hpfem.org/xgen/">Xgen</a>,
-<a href="http://hpfem.org/mesheditor-flex/">Flex Mesh Editor</a><br>
-
-<h3>HowTo</h3>
-<a href="http://github.com/hpfem/hermes/wiki">hp-FEM Group HowTo</a><br>
-
-<h3>Sample Results</h3>
-<br>
-<center>
-<img src="images/lset.jpg" width="150" height="100" alt="*"/><br>
-Interface tracking in two-component flow.
-<br>
-</center>
-
-<br>
-
-<center>
-<img src="images/microheat.jpg" width="150" height="130" alt="*"/><br>
-Microwave heating.
-</center>
-
-<br>
-
-<center>
-<img src="images/gp-1.jpg" width="150" height="90" alt="*"/><br>
-Resonances in Einstein-Bose gases. 
-</center>
-
-<br>
-
-<center>
-<img src="images/lena512-2.jpg" width="150" height="150" alt="*"/><br>
-Image compression with adaptive hp-FEM
-</center>
-
-</div>
-</td>
-
-<td>
-<div class="center">
-<h3> The hp-FEM Group</h3>
-<p>
-The hp-FEM group at the University of Nevada, Reno and 
-University of West Bohemia, Pilsen is a leader in the development, implementation, and 
-dissemination of modern computational methods for engineering and scientific 
-problems described by partial differential equations (PDE). Our work 
-is freely available through several open source projects.
-</p>
-
-<h3>Hermes</h3>
-
-<p>
-<center>
-<a href="http://hpfem.org/hermes"><img src="images/hvt.png" width=400px ></a>
-</center>
-</p>
-
-<p>
-Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms 
-help solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear 
-multiphysics PDE systems. 
-</p>
-
-<h3>Use Hermes through NCLab</h3>
-
-<p>
-<center>
-<a href="https://nclab.com">
-<img align="center" src="images/nclab-1.png" width="200" 
-style="padding:5px; margin-right:5px; border-style:none">
-<img align="center" src="images/nclab-2.png" width="200"
-style="padding:5px; margin-right:5px; border-style:none"><br>
-<img align="center" src="images/nclab-3.png" width="200" 
-style="padding:5px; margin-right:5px; border-style:none">
-<img align="center" src="images/nclab-4.png" width="200"
-style="padding:5px; margin-right:5px; border-style:none">
-</a>
-</center>
-<p>
-NCLab is a third-party product that is not developed by our group at UNR.
-
-<h3>International Conferences ESCO and FEMTEC</h3>
-
-<p>
-We organize two series of international conferences: European Seminar on Coupled Problems (ESCO
-<a href="http://esco2012.femhub.com">2012</a>, 
-<a href="http://hpfem.org/events/esco-2010/">2010</a>, 
-<a href="http://hpfem.org/events/esco-2008/">2008</a>) 
-in Europe and Finite Element Methods in Engineering 
-and Science (FEMTEC
-<a href="http://hpfem.org/events/femtec-2011/">2011</a>, 
-<a href="http://hpfem.org/events/femtec-2009/">2009</a>, 
-<a href="http://hpfem.org/events/femtec-2006/">2006</a>) in the U.S.
-
-</p>
-
-<h3>The Dark Side of FEM</h3>
-
-<p>
-Do not format your harddisk yet! If the science is not
-working, maybe it's art. Visit our art gallery 
-<a href="../gallery_darkside">Dark Side of FEM</a> :)
-</p>
-
-</div>
-</td>
-
-<td style="width: 170px; padding-left: 10px;">
-
 <div class="right">
 <h3>Latest News</h3>
 <ul>
+<li>
+<b>August 2012</b>: Presentation of hp-DG, Butcher's tables &amp; adaptive time stepping at <a href="https://workshop.math.fau.de/MoselSeminar">Moselle seminar</a>.
+</li>
+<li>
+<b>August 2012</b>: Presentation of NCLab at <a href="https://workshop.math.fau.de/MoselSeminar">Moselle seminar</a>.
+</li>
+<li>
+<b>June 2012</b>: Presentation of Hermes: hp-DG &amp; hp-FEM coupling, Butcher's tables &amp; adaptive time stepping at <a href="http://esco2012.femhub.com/">ESCO 2012</a>.
+</li>
+<li>
+<b>June 2012</b>: Presentation of NCLab at <a href="http://esco2012.femhub.com/">ESCO 2012</a>.
+</li>
+<li>
+<b>April 2012</b>: Presentation of Hermes: hp-DG &amp; hp-FEM coupling, Butcher's tables &amp; adaptive time stepping at <a href="http://web.unlv.edu/centers/cams/conferences/sca2012/sca2012.html">SCA 2012</a>.
+</li>
+<li>
+<b>April 2012</b>: Presentation of Hermes modules in NCLab at <a href="http://web.unlv.edu/centers/cams/conferences/sca2012/sca2012.html">SCA 2012</a>.
+</li>
 <li>
 <b>March 2012</b>: First Hermes2D modules developed.
 </li>
@@ -230,7 +125,7 @@ codes he used are  <a href="data/heat-eq.tar.gz">here</a>.
 </li>
 <li>
 Bill Mitchell from NIST visited in December 2009.
-<a href="images/snow_trip.jpg"><img src="images/snow_trip.jpg" width=150px height=115px></a>
+<a href="main/images/snow_trip.jpg"><img src="main/images/snow_trip.jpg" width=150px height=115px></a>
 </li>
 <li>
 <b>Summer 2009:</b>
@@ -238,7 +133,7 @@ Bill Mitchell from NIST visited in December 2009.
 <li>
 Agros2D was used by the group of A. Fejfar at the Institute of Physics in Prague
 to model electric behavior of crystalline structures 
-(<a href="../talks/09/Fejfar-RelationNanoMacro-ICANS23-Utrecht2009.pdf">see presentation</a>).
+(<a href="talks/09/Fejfar-RelationNanoMacro-ICANS23-Utrecht2009.pdf">see presentation</a>).
 </li>
 <li>
 The Hermes project was presented 
@@ -265,9 +160,3 @@ release <a href="http://www.unr.edu/nevadanews/templates/details.aspx?articleid=
 </li>
 </ul>
 </div>
-
-</td>
-</tr>
-</table>
-
-<?phprequire_once('../footer.php');?>

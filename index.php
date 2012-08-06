@@ -1,273 +1,230 @@
 <?php require_once('header.php');?>
 
-<table>
-
-<tr valign="top">
-<td style="width: 170px; padding-right: 10px;">
-<div class="left">
-
-<h3>Open Source Projects</h3>
-
-<a href="http://hpfem.org/hermes/">Hermes</a>, 
-<a href="http://agros2d.org/">Agros2D</a>, 
-<a href="http://femhub.org/">FEMhub Distribution</a>, 
-<a href="http://hpfem.org/himg/">Himg</a>, 
-<a href="http://hpfem.org/xgen/">Xgen</a>,
-<a href="http://hpfem.org/mesheditor-flex/">Flex Mesh Editor</a><br>
-
-<h3>HowTo</h3>
-<a href="http://github.com/hpfem/hermes/wiki">hp-FEM Group HowTo</a><br>
-
-<h3>Sample Results</h3>
-<br>
-<center>
-<img src="main/images/lset.jpg" width="150" height="100" alt="*"/><br>
-Interface tracking in two-component flow.
-<br>
-</center>
-
-<br>
-
-<center>
-<img src="main/images/microheat.jpg" width="150" height="130" alt="*"/><br>
-Microwave heating.
-</center>
-
-<br>
-
-<center>
-<img src="main/images/gp-1.jpg" width="150" height="90" alt="*"/><br>
-Resonances in Einstein-Bose gases. 
-</center>
-
-<br>
-
-<center>
-<img src="main/images/lena512-2.jpg" width="150" height="150" alt="*"/><br>
-Image compression with adaptive hp-FEM
-</center>
-
-</div>
-</td>
-
-<td>
 <div class="center">
-<h3> The hp-FEM Group</h3>
-<p>
-The hp-FEM group at the University of Nevada, Reno and 
-University of West Bohemia, Pilsen is a leader in the development, implementation, and 
-dissemination of modern computational methods for engineering and scientific 
-problems described by partial differential equations (PDE). Our work 
-is freely available through several open source projects.
-</p>
+  <h1> The hp-FEM Group</h1>
+  <p>
+  The hp-FEM group at the University of Nevada, Reno and 
+  University of West Bohemia, Pilsen is concerned with the development, implementation, and 
+  dissemination of modern computational methods for engineering and scientific 
+  problems described by partial differential equations (PDE). Our work 
+  is freely available through several open source projects.
+  </p>
+  
+  <h2>Products (hover the mouse over a product to see details underneath)</h2>
+  <div id="products">
+    <div id="product1" class="product" onmouseover="if($('#descHermesLong').css('display') != 'block') { $('#descHermesLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
+      <img src="gallery/images/hermes-show/both_errors.png" class="active"/>
+      <img src="gallery/images/hermes-show/cand_list_quads.png"/>
+      <img src="gallery/images/hermes-show/elast.png"/>
+      <img src="gallery/images/hermes-show/dynam-1-mesh.png"/>
+      <img src="gallery/images/hermes-show/micro.png"/>
+      <img src="gallery/images/hermes-show/g7.png"/>
+      <img src="gallery/images/hermes-show/sodium-F-1.png"/>
+      <img src="gallery/images/hermes-show/step-conv400.png"/>
+      <img src="gallery/images/hermes-show/shock-sln.png"/>
+      <img src="gallery/images/hermes-show/solinfig9.png"/>
+      <img src="gallery/images/hermes-show/neutro_3.png"/>
+      <img src="gallery/images/hermes-show/mesh_irreg2.png"/>
+    </div>
+    <div id="product2" class="product" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermesLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
+      <img src="gallery/images/hermes-show/both_errors.png" class="active"/>
+      <img src="gallery/images/hermes-show/cand_list_quads.png"/>
+      <img src="gallery/images/hermes-show/elast.png"/>
+      <img src="gallery/images/hermes-show/dynam-1-mesh.png"/>
+      <img src="gallery/images/hermes-show/micro.png"/>
+      <img src="gallery/images/hermes-show/g7.png"/>
+      <img src="gallery/images/hermes-show/sodium-F-1.png"/>
+      <img src="gallery/images/hermes-show/step-conv400.png"/>
+      <img src="gallery/images/hermes-show/shock-sln.png"/>
+      <img src="gallery/images/hermes-show/solinfig9.png"/>
+      <img src="gallery/images/hermes-show/neutro_3.png"/>
+      <img src="gallery/images/hermes-show/mesh_irreg2.png"/>
+    </div>
+    <div id="product3" class="product" onmouseover="if($('#descNCLabLong').css('display') != 'block') { $('#descNCLabLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermesLong').removeClass('descLongActive');});}">
+      <img src="gallery/images/hermes-show/both_errors.png" class="active"/>
+      <img src="gallery/images/hermes-show/cand_list_quads.png"/>
+      <img src="gallery/images/hermes-show/elast.png"/>
+      <img src="gallery/images/hermes-show/dynam-1-mesh.png"/>
+      <img src="gallery/images/hermes-show/micro.png"/>
+      <img src="gallery/images/hermes-show/g7.png"/>
+      <img src="gallery/images/hermes-show/sodium-F-1.png"/>
+      <img src="gallery/images/hermes-show/step-conv400.png"/>
+      <img src="gallery/images/hermes-show/shock-sln.png"/>
+      <img src="gallery/images/hermes-show/solinfig9.png"/>
+      <img src="gallery/images/hermes-show/neutro_3.png"/>
+      <img src="gallery/images/hermes-show/mesh_irreg2.png"/>
+    </div>
+  </div>
+  <div id="productDesc">
+    <div id="descHermes" class="descTitle" onmouseover="if($('#descHermesLong').css('display') != 'block') { $('#descHermesLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
+      Hermes
+    </div>
+    <div id="descAgros" class="descTitle" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermesLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
+       	Agros2D
+    </div>
+    <div id="descNCLab" class="descTitle" onmouseover="if($('#descNCLabLong').css('display') != 'block') { $('#descNCLabLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermesLong').removeClass('descLongActive');});}">
+      NCLab
+    </div>
+   
+  </div> 
+  <div id="descLong">
+    <div id="descHermesLong" class="descLong descLongActive">
+      <h3>Hermes - hp-FEM &amp; hp-DG C++ library</h3>
+      Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms are designed to solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear multiphysics PDE systems. The code is distributed under the GNU General Public License (Hermes2D and Hermes3D) and BSD License (Hermes1D).
+    </div>
+    <div id="descAgrosLong" class="descLong">
+      <h3>Agros2D - graphical PDE Engineering tool</h3>
+      Agros2D is a multiplatform C++ application for the solution of partial differential equations (PDE) based on the Hermes library, developed by the group at the University of West Bohemia in Pilsen. Agros2D is distributed under the GNU General Public License.
+    </div>
+    <div id="descNCLabLong" class="descLong">
+      <h3>NCLab - new way of computing</h3>
+      The goal of the NCLab (Networked Computing Laboratory) is to make computing accessible to anyone. No need to own a strong computer or buy expensive software. Everything takes place inside the web browser window, that turns into a virtual computer desktop. The NCLab is developed by the hp-FEM group at the University of Nevada, Reno.
+    </div>
+  </div>
 
-<h3>Hermes</h3>
+  <script type="text/javascript">
+    function slideSwitch1() {
+        var $active = $('#product1 IMG.active');
+        var $next =  $active.next().length ? $active.next()
+        : $('#product1 IMG:first');
 
-<p>
-<center>
-<a href="http://hpfem.org/hermes"><img src="main/images/hvt.png" width=400px ></a>
-</center>
-</p>
+        $active.addClass('last-active');
 
-<p>
-Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms 
-help solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear 
-multiphysics PDE systems. 
-</p>
+        $next.css({opacity: 0.0})
+            .addClass('active')
+            .animate({opacity: 1.0}, 1100, function() {
+                $active.removeClass('active last-active');
+            });
+    }
+    function slideSwitch2() {
+        var $active = $('#product2 IMG.active');
+        var $next =  $active.next().length ? $active.next()
+        : $('#product2 IMG:first');
 
-<h3>Use Hermes through NCLab</h3>
+        $active.addClass('last-active');
 
-<p>
-<center>
-<a href="https://nclab.com">
-<img align="center" src="main/images/nclab-1.png" width="200" 
-style="padding:5px; margin-right:5px; border-style:none">
-<img align="center" src="main/images/nclab-2.png" width="200"
-style="padding:5px; margin-right:5px; border-style:none"><br>
-<img align="center" src="main/images/nclab-3.png" width="200" 
-style="padding:5px; margin-right:5px; border-style:none">
-<img align="center" src="main/images/nclab-4.png" width="200"
-style="padding:5px; margin-right:5px; border-style:none">
-</a>
-</center>
-<p>
-NCLab is a third-party product that is not developed by our group at UNR.
+        $next.css({opacity: 0.0})
+            .addClass('active')
+            .animate({opacity: 1.0}, 1300, function() {
+                $active.removeClass('active last-active');
+            });
+    }
+    function slideSwitch3() {
+        var $active = $('#product3 IMG.active');
+        var $next =  $active.next().length ? $active.next()
+        : $('#product3 IMG:first');
 
-<h3>International Conferences ESCO and FEMTEC</h3>
+        $active.addClass('last-active');
 
-<p>
-We organize two series of international conferences: European Seminar on Coupled Problems (ESCO
-<a href="http://esco2012.femhub.com">2012</a>, 
-<a href="http://hpfem.org/events/esco-2010/">2010</a>, 
-<a href="http://hpfem.org/events/esco-2008/">2008</a>) 
-in Europe and Finite Element Methods in Engineering 
-and Science (FEMTEC
-<a href="http://hpfem.org/events/femtec-2011/">2011</a>, 
-<a href="http://hpfem.org/events/femtec-2009/">2009</a>, 
-<a href="http://hpfem.org/events/femtec-2006/">2006</a>) in the U.S.
+        $next.css({opacity: 0.0})
+            .addClass('active')
+            .animate({opacity: 1.0}, 1500, function() {
+                $active.removeClass('active last-active');
+            });
+    }
 
-</p>
+    $(function() {
+        setInterval( "slideSwitch1()", 2000 );
+        setInterval( "slideSwitch2()", 3000 );
+        setInterval( "slideSwitch3()", 4000 );
+    });
+  </script>
+  
+  <div style="clear:both"></div>
+  <h2>Core Team</h2>
+  <table>
+    <tr style="vertical-align:top;">
+    <td>
+    <a href="http://hpfem.org/~pavel/">
+      <img src="people/photos/pavel-hpfem.org.jpg" width=142px style="border:1px solid black" height=142px title="Pavel Solin (group leader, NCLab)">
+    </a>
+    </td>
+    <td>
+    <a href="#">
+      <img src="people/photos/lukas.jpg" width=142px style="border:1px solid black" height=142px title="Lukas Korous (Hermes main developer)">
+    </a>
+    </td>
+    <td>
+    <a href="http://home.zcu.cz/~karban/main/">
+      <img src="people/photos/karban.jpg" width=142px style="border:1px solid black" height=142px title="Pavel Karban (Agros2D main developer)">
+    </a>
+    </td>
+    <td>
+    <a href="#">
+      <img src="people/photos/pavel_kus.jpg" width=142px style="border:1px solid black" height=142px title="Pavel Kus (Agros2D, Hermes3D)">
+    </a>
+    </td>
+    <td>
+    <a href="http://home.zcu.cz/~fmach">
+      <img src="people/photos/franta_small.jpg" width=142px style="border:1px solid black" height=142px title="Franta Mach (Agros2D)">
+    </a>
+    </td>
+    </tr>
+    <tr style="vertical-align:top;">
+      <td><span style="font-weight:bold">Pavel Solin</span><br />(group leader, NCLab)</td>
+      <td><span style="font-weight:bold">Lukas Korous</span><br />(Hermes main developer)</td>
+      <td><span style="font-weight:bold">Pavel Karban</span><br />(Agros2D main developer)</td>
+      <td><span style="font-weight:bold">Pavel Kus</span><br />(Agros2D, Hermes3D)</td>
+      <td><span style="font-weight:bold">Franta Mach</span><br />(Agros2D)</td>
+    </tr>
+  </table>
 
-<h3>The Dark Side of FEM</h3>
+  <h2>Hermes</h2>
 
-<p>
-Do not format your harddisk yet! If the science is not
-working, maybe it's art. Visit our art gallery 
-<a href="gallery_darkside">Dark Side of FEM</a> :)
-</p>
+  <p>
+  <center>
+  <a href="http://hpfem.org/hermes"><img src="main/images/hvt.png" width=400px ></a>
+  </center>
+  </p>
+
+  <p>
+  Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms 
+  help solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear 
+  multiphysics PDE systems. 
+  </p>
+
+  <h3>Use Hermes through NCLab</h3>
+
+  <p>
+  <center>
+  <a href="https://nclab.com">
+  <img align="center" src="main/images/nclab-1.png" width="200" 
+  style="padding:5px; margin-right:5px; border-style:none">
+  <img align="center" src="main/images/nclab-2.png" width="200"
+  style="padding:5px; margin-right:5px; border-style:none"><br>
+  <img align="center" src="main/images/nclab-3.png" width="200" 
+  style="padding:5px; margin-right:5px; border-style:none">
+  <img align="center" src="main/images/nclab-4.png" width="200"
+  style="padding:5px; margin-right:5px; border-style:none">
+  </a>
+  </center>
+  <p>
+  NCLab is a third-party product that is not developed by our group at UNR.
+
+  <h3>International Conferences ESCO and FEMTEC</h3>
+
+  <p>
+  We organize two series of international conferences: European Seminar on Coupled Problems (ESCO
+  <a href="http://esco2012.femhub.com">2012</a>, 
+  <a href="http://hpfem.org/events/esco-2010/">2010</a>, 
+  <a href="http://hpfem.org/events/esco-2008/">2008</a>) 
+  in Europe and Finite Element Methods in Engineering 
+  and Science (FEMTEC
+  <a href="http://hpfem.org/events/femtec-2011/">2011</a>, 
+  <a href="http://hpfem.org/events/femtec-2009/">2009</a>, 
+  <a href="http://hpfem.org/events/femtec-2006/">2006</a>) in the U.S.
+
+  </p>
+
+  <h3>The Dark Side of FEM</h3>
+
+  <p>
+  Do not format your harddisk yet! If the science is not
+  working, maybe it's art. Visit our art gallery 
+  <a href="gallery_darkside">Dark Side of FEM</a> :)
+  </p>
 
 </div>
-</td>
 
-<td style="width: 170px; padding-left: 10px;">
-
-<div class="right">
-<h3>Latest News</h3>
-<ul>
-<li>
-<b>March 2012</b>: First Hermes2D modules developed.
-</li>
-<li>
-<b>January 2012</b>: Hermes2D parallelized.
-</li>
-<li>
-<b>November 2011</b>: Abstract Submission for ESCO 2012 Open,
-</li>
-<li>
-<b>September 2011</b>: Hermes Version 1.0 Released! Read more
-<a href="http://hpfem.org/hermes/">here</a>.
-</li>
-<li>
-<b>August 2011</b>: The next <a href="http://esco2012.femhub.com/">ESCO 2012</a> will be 
-organized by <a href="http://femhub.com/">FEMhub Inc.</a>
-</li>
-<li>
-<b>July 2011</b>: Hermes was presented at invited lectures (Erlangen, Rome, INRIA).
-Several new people migrated from Comsol to Hermes mostly to use hp-adaptivity with 
-dynamical meshes for transient problems.
-</li>
-<li>
-<b>June, 2011</b>: Templating of Hermes2D in progress. The goal is to have only one
-version of the library (not real and complex versions).
-</li>
-<li>
-<b>May 9 -13, 2011</b>: <a href="http://hpfem.org/events/femtec-2011/">FEMTEC 2011</a>
-takes place.
-</li>
-<li>
-<b>April 2011</b>: New repository hermes-dev.git at Github serves
-for testing of changes before they are pushed into the master 
-repository hermes.git.
-</li>
-<li>
-<b>April 2011</b>: Explicit support for linear problems ended.
-Linear problems need to be formulated using a jacobian-residual
-formulation (same as nonlinear problems).
-</li>
-<li>
-<b>March 2011</b>: New object-oriented weak forms 
-pushed to master. Some examples still need 
-upgrading.
-</li>
-<li>
-<b>February 2011</b>: Mateusz Paprocki has joined our team in Reno. VTK
-solution output was finally added to H2D. Progress on Hermes compilation
-on Mac was made.
-</li>
-<li>
-<b>January 2011</b>: Dr. Sascha Schnepp from Technical University Darmstadt 
-arrived for a six-weeks stay.
-</li>
-<li>
-December 2010: Time integration in Hermes can be done using an
-arbitrary Butcher's table. 
-</li>
-<li>
-November 2010: <a href="http://math.nist.gov/~WMitchell/">Bill Mitchell</a> from NIST visited 
-for a few days.
-</li>
-<li>
-November 2010: <a href="http://hpfem.org/hermes">Hermes</a> entered a feature-freeze stage of cleaning,
-consolidation, and preparation for the first official release.
-</li>
-<li>
-October 2010: <a href="http://hpfem.org/events/femtec-2011/">FEMTEC 2011</a> announced.
-</li>
-<li>
-September 2010: Hermes1D, Hermes2D and Hermes3D merged into
-a single git repository <a href="http://github.com/hpfem/hermes">Hermes</a>.
-</li>
-<li>
-Septeber 2010: New version of Hermes2D merged into upstream.
-</li>
-<li>
-July 2010: New version of H2D in progress in
-branch <a href="http://github.com/solin/hermes2d/commits/change">change</a>. 
-</li>
-<li>
-June 28 - July 3: <a href="http://hpfem.org/events/esco-2010/">ESCO 2010</a> was a great success!
-</li>
-<li>
-May 2010: Special issue of MATCOM dedicated to ESCO 2008 
-finally printed. 
-</li>
-<li>
-March 24 - 28, 2010: Visit of Dr. Christopher Kees (U.S. Army Engineer 
-Research and Development Laboratory)
-</li>
-<li>
-March 18, 2010: Plenary lecture 
-for 160 people on scientific computing on the occasion of the 
-<a href="http://www.lawrencehallofscience.org/jshs/">Junior 
-Science and Humanities Symposium (JSHS)</a>. The 
-presentation (minus movies) is <a href="data/circus-circus.pdf">here</a>.
-</li>
-<li>
-Glen Hansen from INL visited in February 2010
-and gave several lectures on <a href="data/hansen-1.pdf">JFNK</a> 
-and <a href="data/hansen-2.pdf">Trilinos</a>. The computer 
-codes he used are  <a href="data/heat-eq.tar.gz">here</a>.
-</li>
-<li>
-Bill Mitchell from NIST visited in December 2009.
-<a href="main/images/snow_trip.jpg"><img src="main/images/snow_trip.jpg" width=150px height=115px></a>
-</li>
-<li>
-<b>Summer 2009:</b>
-<ul>
-<li>
-Agros2D was used by the group of A. Fejfar at the Institute of Physics in Prague
-to model electric behavior of crystalline structures 
-(<a href="talks/09/Fejfar-RelationNanoMacro-ICANS23-Utrecht2009.pdf">see presentation</a>).
-</li>
-<li>
-The Hermes project was presented 
-9 times during summer 2009 (7 invited presentations).
-See the Publications section for PDF files.
-<li> 
-Preparations for ESCO 2010 started, preliminary web page is 
-<a href="http://hpfem.org/events/esco-2010">here</a>.
-</li>
-</li>
-</ul>
-</li>
-<li>
-<b>July 2009:</b><br>
-Idaho National Laboratory (INL) grant to explore the potential
-of adaptive multimesh hp-FEM for nuclear fuel performance
-analysis.
-</li>
-<li>
-<b>June 2009:</b><br>
-Major DoE grant for advanced multiphysics computer
-simulations of nuclear reactor processes - Nevada News press 
-release <a href="http://www.unr.edu/nevadanews/templates/details.aspx?articleid=5074&amp;zoneid=8">here</a>.
-</li>
-</ul>
-</div>
-
-</td>
-</tr>
-</table>
-
+<?php require_once('right-latest.php');?>
 <?php require_once('footer.php');?>
