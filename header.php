@@ -44,25 +44,24 @@
         <div class="headerITLogo doNotPrint"><img src="../_images/header.png" alt="Hermes Gallery" style="z-index:3;" title="Hermes Gallery" /></div>
         <div class="midHeaderBody">
           <div class="headerTitle">hpFEM.org</div>
-          <div class="headerSubTitle">University of Nevada, Reno</div>
-          <div class="headerSubTitle">University of West Bohemia, Pilsen</div>
-          <div class="headerSubTitle">Institute of Thermomechanics, Prague</div>
+          <div class="headerSubTitle Shadow1">University of Nevada, Reno</div>
+          <div class="headerSubTitle Shadow2">University of West Bohemia, Pilsen</div>
+          <div class="headerSubTitle Shadow3">Institute of Thermomechanics, Prague</div>
         </div>
       </div>
       <div class="subHeader">
     <div id="navigation">        
         <span class="doNotDisplay">Navigation:</span>
         <a href="../">Home</a> |
-        <a href="../people/">People</a> |
+        <a href="../people/">Hermes</a> |
 <!--        <a href="../main/hermes.php">Hermes</a> |
         <a href="http://femhub.org/">FEMhub</a> |
         <a href="../agros2d/">Agros</a> |
 -->
-        <a href="../gallery/">Gallery</a> |
-        <a href="../publications/">Posters</a> |
+        <a href="../gallery/">Other projects</a> |
+        <a href="../publications/">Team</a> |
         <a href="../events/">Events</a> |
-        <a href="../main/links.php">Links</a> |
-        <a href="../clipboard/">Clipboard</a> 
+        <a href="../main/links.php">Links</a>
     </div>
     </div>
   </div>
