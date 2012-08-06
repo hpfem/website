@@ -1,0 +1,51 @@
+<html>
+<body>
+
+<h2>Hermes - Git HowTo</h2>
+
+<ul>
+<li><b>How to test patches posted by someone somewhere</b><br>
+Let say that David asks you to pull the branch called exodus-II 
+from git://github.com/andrsd/hermes2d.git and review.<br>
+First, add the remote link to David's repo by saying:<br>
+git remote add david git://github.com/andrsd/hermes2d.git<br>
+Then, create in your repo a new local branch where the patches will be tested.<br>
+Assuming that you are in your master branch, type:<br>
+git co -b test-david<br>
+Then, fetch David's repo by typing:<br>
+git fetch david<br>
+Next, merge the branch of interest into your local branch:<br>
+git merge david/exodus-II<br>
+That's it. You can now type "cmake .", "make", and test if everything works.
+</li>
+
+<p>
+<li><b>How to push into the repository on spilka</b><br>
+git remote add write spilka.math.unr.edu:/home/git/repos/hermes2d.git<br>
+git push --d write local_branch:master<br>
+check that all is ok and then:<br>
+git push write local_branch:master<br>
+
+<p>
+<li><b>How to add a new Git repository to spilka</b><br>
+0) add the git repo (just the bare git repo) into /home/git/repos:<br>
+   git clone --bare name_of_the_new_git_repo.git<br>
+1) visudo # edit the visudo file, add there two more lines for the new<br>
+          # git repo, just copy and adapt the lines already there<br>
+2) copy and adapt the hooks/post-update hook. For example:<br>
+cp ../libfemhub.git/hooks/post_update hooks/<br>
+vim hooks/post-update<br>
+and adapt the file to the new repo<br>
+3) touch git-daemon-export-ok<br>
+sh hooks/post-update (not as root)<br>
+if this does not work, then run it as sudo<br>
+4) add a link to /var/cache/git/<br>
+ln -s /home/git/repos/name_of_the_new_repo.git .<br>
+If you want to push in there from any computer, do:<br>
+git remote add write spilka.math.unr.edu:/home/git/repos/name_of_the_new_repo.git<br>
+</li>
+</ul>
+
+</body>
+</html>
+

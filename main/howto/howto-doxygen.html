@@ -1,0 +1,21 @@
+<html>
+<body>
+
+<h2>Hermes - Doxygen HowTo</h2>
+
+<ul>
+<li><b>How to update Doxygen on spilka</b><br>
+ssh spilka<br>
+sudo -i<br>
+cd /var/www2/hermes2d/hermes2d<br>
+git clean -dfx<br>
+git pull<br>
+cd doc.cpp<br>
+doxygen ./hermes2d.lib-real.doxyfile <br>
+doxygen ./hermes2d.lib-cplx.doxyfile <br>
+</li>
+</ul>
+
+</body>
+</html>
+

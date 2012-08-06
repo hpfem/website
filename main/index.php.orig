@@ -1,0 +1,205 @@
+<?require_once('../header.php');?>
+
+
+<table>
+
+<tr valign="top">
+<td style="width: 170px; padding-right: 10px;">
+<div class="left">
+
+<h3>Open Source Projects</h3>
+<ul>
+<li>
+<a href="http://hpfem.org/hermes1d/">Hermes1D</a>,
+</li>
+<li>
+<a href="http://hpfem.org/hermes2d/">Hermes2D</a>,
+</li>
+<li>
+<a href="http://hpfem.org/hermes3d/">Hermes3D</a>,
+</li>
+<li>
+<a href="http://femhub.org">FEMhub</a>,
+</li>
+<li>
+<a href="http://hpfem.org/agros2d/">Agros2D</a>,
+</li>
+<li>
+<a href="http://hpfem.org/himg/">Himg</a>
+</li>
+<ul>
+
+<h3>Media Snapshots</h3>
+
+<ul>
+<li>
+<a href="http://www.unr.edu/nevadanews/templates/details.aspx?articleid=5304&zoneid=14">Nevada News, Jan 2010</a><br>
+</li>
+<li>
+<a href="http://www.unr.edu/nevadanews/templates/details.aspx?articleid=5074&amp;zoneid=8">Nevada News, June 2009</a>
+</li>
+</ul>
+
+<h3>Sample Computations</h3>
+<br>
+<center>
+<img src="images/lset.jpg" width="150" height="100" alt="*"/><br/>
+Interface tracking in two-component flow.
+<br/>
+</center>
+
+<br/>
+
+<center>
+<img src="images/microheat.jpg" width="150" height="130" alt="*"/><br/>
+Microwave heating.
+</center>
+
+<br/>
+
+<center>
+<img src="images/gp-1.jpg" width="150" height="90" alt="*"/><br/>
+Resonances in Einstein-Bose gases. 
+</center>
+
+<br/>
+
+<center>
+<img src="images/lena512-2.jpg" width="150" height="150" alt="*"/><br/>
+Image compression with adaptive hp-FEM
+</center>
+
+</div>
+</td>
+
+<td>
+<div class="center">
+<h3> About Our Group</h3>
+<p>
+Our group is the leader in the development of adaptive higher-order computational
+methods for engineering and scientific problems described by partial differential 
+equations (PDE). We care a lot about the fidelity of results, and thus error 
+estimation and automatic adaptivity are an integral part of all our methods 
+and software. All our work is freely available through open source projects
+(see links on the left-hand side).
+</p>
+
+<h3>The Online Numerical Methods Lab</h3>
+<table border="0" width=400px>
+<tr>
+<td valign="top" width="25%">
+<a href="images/iphone_large.png"><img align="left" src="images/iphone.png" width=100px style="padding:5px; margin-right:5px; border-style:none"></a>
+It is our goal to make modern computational methods 
+accessible easily and free of charge to anyone including 
+students, researchers, and the general public. Therefore 
+we are developing an interactive 
+<a href="http://nb.femhub.org/">online lab</a>.
+This is a place where anyone can learn and compute
+with a wide range of numerical methods ranging from 
+elementary techniques such as interpolation or 
+rootfinding to cutting edge advanced adaptive 
+higher-order finite element methods. To use the 
+online lab, one does not have to buy or install 
+any software, or own a strong computer. Everything 
+takes place inside the web browser. The online lab 
+is accessible from regular computers or laptops, 
+but also from PDAs, iPhones, etc.
+</td>
+</tr>
+</table>
+
+<h3>Interested in Contributing?</h3>
+<p>
+We are looking for help! You do not have to be 
+expert in math or FEM since we deal with a variety of problems 
+including web-based computing, interface design, wrappers, 
+testing and documentation writing, etc. 
+The easiest way to see what is going on is to visit our project 
+pages and subscribe to a mailing list. 
+The home page of every project contains a list of 
+simpler projects and easy-to-fix issues that we need 
+help with. 
+</p>
+
+<h3>Our Conferences</h3>
+
+<p>
+In order to increase in various engineering and scientific communities 
+the awareness about modern adaptive higher-order computational methods, we organize two series 
+of international conferences: European Seminar on Coupled Problems (ESCO) 
+in Europe and Finite Element Methods in Engineering 
+and Science (FEMTEC) in the U.S. - see the <a href="http://hpfem.org/events/">Events</a> 
+page for more details. 
+</p>
+
+<h3>The Dark Side of FEM</h3>
+
+<p>
+Do not format your harddisk yet! If the science is not
+working, maybe it's art. Visit our art gallery 
+<a href="../gallery_darkside">Dark Side of FEM</a> :)
+</p>
+
+</div>
+</td>
+
+<td style="width: 170px; padding-left: 10px;">
+
+<div class="right">
+<h3>Quick Links</h3>
+
+<p>
+<a href="http://nb.femhub.org/">online lab</a><br>
+<a href="http://groups.google.com/group/hpfem-group">group activity list</a><br>
+<a href="howto/style.html">programming style</a><br>
+<a href="howto/howto.html">how to...</a>
+</p>
+
+<h3>Latest News</h3>
+<ul>
+<li>
+Bill Mitchell from NIST visited in December 2009.
+<a href="images/snow_trip.jpg"><img src="images/snow_trip.jpg" width=150px height=115px></a>
+</li>
+<li>
+New paper <a href="../publications/papers/2009/scipy09_paper-39.pdf">The FEMhub Project and Classroom Teaching of Numerical Methods</a>. In: Proceedings of SciPy 2009.   
+</li>
+<li>
+<b>Summer 2009:</b>
+<ul>
+<li>
+Agros2D was used by the group of A. Fejfar at the Institute of Physics in Prague
+to model electric behavior of crystalline structures 
+(<a href="../talks/09/Fejfar-RelationNanoMacro-ICANS23-Utrecht2009.pdf">see presentation</a>).
+</li>
+<li>
+The Hermes and FEMhub projects were presented 
+9 times during summer 2009 (7 invited presentations).
+See the Publications section for PDF files.
+<li> 
+Preparations for ESCO 2010 started, preliminary web page is 
+<a href="http://hpfem.org/events/esco-2010">here</a>.
+</li>
+</li>
+</ul>
+</li>
+<li>
+<b>July 2009:</b><br/>
+Idaho National Laboratory (INL) grant to explore the potential
+of adaptive multimesh hp-FEM for nuclear fuel performance
+analysis.
+</li>
+<li>
+<b>June 2009:</b><br/>
+Major DoE grant for advanced multiphysics computer
+simulations of nuclear reactor processes - Nevada News press 
+release <a href="http://www.unr.edu/nevadanews/templates/details.aspx?articleid=5074&amp;zoneid=8">here</a>.
+</li>
+</ul>
+</div>
+
+</td>
+</tr>
+</table>
+
+<?require_once('../footer.php');?>

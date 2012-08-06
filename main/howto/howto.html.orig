@@ -1,0 +1,183 @@
+<html>
+<body>
+
+<h2>Hermes - HowTo</h2>
+
+<ul>
+<li><b>How to test patches posted by someone somewhere</b><br>
+Let say that David asks you to pull the branch called exodus-II 
+from git://github.com/andrsd/hermes2d.git and review.<br>
+First, add the remote link to David's repo by saying:<br>
+git remote add david git://github.com/andrsd/hermes2d.git<br>
+Then, create in your repo a new local branch where the patches will be tested.<br>
+Assuming that you are in your master branch, type:<br>
+git co -b test-david<br>
+Then, fetch David's repo by typing:<br>
+git fetch david<br>
+Next, merge the branch of interest into your local branch:<br>
+git merge david/exodus-II<br>
+That's it. You can now type "cmake .", "make", and test if everything works.
+</li>
+<p>
+
+<p>
+<li><b>How to push into the repository on spilka</b><br>
+git remote add write spilka.math.unr.edu:/home/git/repos/hermes2d.git<br>
+git push --d write local_branch:master<br>
+check that all is ok and then:<br>
+git push write local_branch:master<br>
+
+<p>
+<li><b>How to install cmake 2.8 on a 32/64-bit system</b><br>
+add the following line<br>
+deb http://ppa.launchpad.net/ondrej-certik/ppa/ubuntu karmic main<br>
+into your /etc/apt/sources.list, and then do:<br>
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 8416C38B<br>
+sudo apt-get update<br>
+sudo apt-get install cmake<br>
+it should work both on 32 bits and 64 bits.<br>
+</li>
+
+<p>
+<li><b>How to install Trilinos</b><br>
+download the sources from the <a href="http://trilinos.sandia.gov/download/trilinos-10.0.html">Trilinos page</a>
+   and unpack them in some temporary directory<br> 
+place this <a href="trilinos/do-configure">do-configure</a> script into the trilinos source directory</br>
+ ./do-configure</br>
+make<br>
+ make install (as root)<br>
+(This places the installation into /opt/packages/trilinos dir.
+  If you do not like this location, change <br> the CMAKE_INSTALL_PREFIX
+  variable to whatever you like.)<br>
+ go to the directory with hermes{2|3}d. In your CMake.vars, say:<br>
+set(WITH_TRILINOS YES)<br>
+set(TRILINOS_ROOT /opt/packages/trilinos) (or your modified CMAKE_INSTALL_PREFIX variable)<br>
+cmake .</br>
+make</br>
+</li>
+
+<p>
+<li><b>How to install ExoduxII and NetCDF libraries<br>
+       (necessary to read Cubit files in Hermes)</b><br>
+
+For system-wide installation do (as a root):<br>
+
+1) cd /<br>
+2)<br>
+wget http://hpfem.org/downloads/exodusii-bin-amd64-4.81.tar.gz<br>
+wget http://hpfem.org/downloads/netcdf-bin-amd64-4.0.1.tar.gz<br>
+3)<br> 
+tar xvzf exodusii-bin-amd64-4.81.tar.gz<br>
+tar xvzf netcdf-bin-amd64-4.0.1.tar.gz<br>
+4) <br>
+rm exodusii-bin-amd64-4.81.tar.gz<br>
+rm netcdf-bin-amd64-4.0.1.tar.gz<br>
+<br>
+This will unpack binary packages of netcdf and exodusii in to /opt/packages/netcdf <br>
+and /opt/packages/exodusii, respectively. If you do not like the location you can <br>
+change it to whatever you like, but you need to adjust the CMake variables accordingly <br>
+(see below).<br>
+
+<p>
+<b>To use exodusii support in Hermes2D:</b><br>
+
+- clone the repo (is you have done it yet)<br>
+- in CMake.vars, say:<br>
+ SET(WITH_EXODUSII YES)<br>
+ SET(EXODUSII_ROOT /opt/packages/exodusii)<br>
+ SET(NETCDF_ROOT   /opt/packages/netcdf)<br>
+<br>
+cmake .<br>
+make<br>
+<br>
+Note: the binary packages were prepared on Ubuntu 9.10 (64 bit). <br>
+They might work on other 64 bit machines, but we did not test that. <br>
+However, you can always build these packages by yourself if you are <br>
+on a different architecture (both are available for free).
+
+<p>
+<li><b>How to install libstdc++5</b><br>
+Add this to your /etc/apt/sources.list:<br>
+deb http://ubuntu.osuosl.org/ubuntu/ jaunty main restricted universe multiverse<br>
+apt-get update<br>
+apt-get install libstdc++5 libg2c0<br>
+Now you can remove that line from sources.list. Then<br>
+tar xzf Cubit_LINUX64.12.0.tar.gz<br>
+./cubit<br>
+
+<p>
+<li><b>How to update Sphinx on spilka</b><br>
+ssh spilka<br>
+sudo -i<br>
+cd /var/www2/hermes2d/hermes2d<br>
+git clean -dfx<br>
+git pull<br>
+cd doc<br>
+make html<br>
+</li>
+
+<p>
+<li><b>How to update Doxygen on spilka</b><br>
+ssh spilka<br>
+sudo -i<br>
+cd /var/www2/hermes2d/hermes2d<br>
+git clean -dfx<br>
+git pull<br>
+cd doc.cpp<br>
+doxygen ./hermes2d.lib-real.doxyfile <br>
+doxygen ./hermes2d.lib-cplx.doxyfile <br>
+</li>
+
+<p>
+<li><b>How to restart Open SSH access to Windows PC</b><br>
+log into your account<br>
+run Cygwin as administrator<br>
+type "net start sshd"<br>
+the IP address is 134.197.8.209
+</li>
+
+<p>
+<li><b>How to update the Hermes2D package in your local FEMhub</b><br>
+cd hermes2d/<br>
+path_to_femhub/femhub -sh # this launches a FEMhub subshell<br> 
+bash spkg-install<br>
+CTRL+D # exits the FEMhub subshell<br>
+</li>
+
+<p>
+<li><b>How to update the Hermes2D package in FEMhub on Spilka</b><br>
+1. First upload your package to spilka<br>
+scp your_spkg spilka.math.unr.edu:/var/www3/femhub.org/packages/femhub_st<br>
+2. In the femhub directory:<br>
+cd spkg/standard<br>
+emacs download_packages<br>
+3. Replace old package name with new name. Change the line<br>
+$WGET $FEMHUB_STANDARD/hermes2d-OLD.spkg<br>
+to<br>
+$WGET $FEMHUB_STANDARD/hermes2d-NEW.spkg<br>
+4. Then push the changes in download_packages file to official repo.<br>
+</li>
+
+<p>
+<li><b>How to add a new Git repository to spilka</b><br>
+0) add the git repo (just the bare git repo) into /home/git/repos:<br>
+   git clone --bare name_of_the_new_git_repo.git<br>
+1) visudo # edit the visudo file, add there two more lines for the new<br>
+          # git repo, just copy and adapt the lines already there<br>
+2) copy and adapt the hooks/post-update hook. For example:<br>
+cp ../libfemhub.git/hooks/post_update hooks/<br>
+vim hooks/post-update<br>
+and adapt the file to the new repo<br>
+3) touch git-daemon-export-ok<br>
+sh hooks/post-update (not as root)<br>
+if this does not work, then run it as sudo<br>
+4) add a link to /var/cache/git/<br>
+ln -s /home/git/repos/name_of_the_new_repo.git .<br>
+If you want to push in there from any computer, do:<br>
+git remote add write spilka.math.unr.edu:/home/git/repos/name_of_the_new_repo.git<br>
+</li>
+</ul>
+
+</body>
+</html>
+

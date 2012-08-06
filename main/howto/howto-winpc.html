@@ -1,0 +1,120 @@
+<html>
+<body>
+
+<h2>Hermes - Win-PC HowTo</h2>
+
+<ul>
+
+<li><b>Things you need to know before use Cygwin on Win-PC</b><br>
+Every win-pc user is setup as standard user, Only Administrator has the privilege 
+to modify Cygwin.  If A user installs package from cygwin, it will conflict Windows 
+security issues, and sshd will possibly break. Basically, this is due to the 
+architecture of cygwin will have mixed privileges from different users. <br>
+
+<p> Every User are only suppose to modify things under its home account. If anyone
+need to install package, just ask Administrator to do it from Admin account
+locally through cygwin setup. This is the only way of how cygwin work under vista so
+far(unless you know other better ones). </p>
+
+<p> Although we have backup from check point and external hard disks, the volumn of 
+disk label will change. This will cause a mismatch inside vista system(RPC service), 
+which has been confirmed by Microsoft. Consequently, Cygwin can not read and write 
+user privileges correctly. In additin, after you have recovered from a hard disk image, 
+all previous check points and disk images will be gone. 
+</p>
+
+<p> The best solution to deal with a cygwin error caused by windows vista is to 
+re-install everything from scratch. External hard disk is used to back-up users'
+files. </p> 
+
+</li>
+
+<li><b>How to install Open SSH on Windows PC from scratch</b><br>
+<p> <b>1.</b> Re-install vista from installation DVD. Create all users, including 
+buildslave,  with pre-assigned passwd. When you were asked for updates installation, 
+choose "ask me later". Also remember to disable all updates. </p>
+
+<p> Here are the drivers you will need: </p>
+<a href="driver/R239885.exe">Network Driver</a>,
+<a href="driver/R205428.exe">Chipset Driver</a>, 
+<a href="driver/R214973.exe">Graphic Driver</a>.
+
+<p> IP: 134.197.8.249, subnet mask: 255.255.255.0, gateway: 134.197.8.249, 
+DNS: 134.197.5.1, 134.197.6.1 </p> 
+
+<p> Under network center, you need to setup network as private network, and make it 
+discoverable. </p> 
+
+<p> <b>2.</b> Configuration on Win-vista:</p>
+<p> First, activate Administrator account from cmd.exe with run as 
+Administrator: net user Administrator /active:yes</p>
+
+<p> Second, Right click My Computer -> Properties -> Advanced ->  
+Environment Variables: Click "New" button under "System Variables", 
+add a new entry to System Variables: variable name is 'CYGWIN', 
+variable value is 'ntsec tty'. Then, select 'Path' variable, Click 
+"Edit" button, append ';c:\cygwin\bin' to the end of the existing 
+varaible string.</p>
+
+<p> Third, Click Start -> Control Panel -> Security Centre -> Manage Security
+Settings for Windows Firewall -> Exceptions tab -> Add Port ->
+"Name of port" is openssh, "Port number" is 22 (check the "TCP" checkbox). </p>
+
+<p> <b>3.</b> Configuration for XCygwin:</p>
+<p> First, Install cygwin base packages from Administrator, in addition with 
+the following packages: tcp_wrappers, zlib, openssh. </p> 
+
+<p> Seconds, exexcute the following command from Admin account:</p>
+<p> editrights.exe -a SeAssignPrimaryTokenPrivilege -u Administrator <br>
+editrights.exe -a SeCreateTokenPrivilege -u Administrator <br> 
+editrights.exe -a SeTcbPrivilege -u Administrator <br> 
+editrights.exe -a SeServiceLogonRight -u Administrator <br> </p> 
+
+<p> If you have the following output after executing "editrights.exe -l 
+-u Administrator", then you are doing correctly:</p> 
+<p> SeAssignPrimaryTokenPrivilege <br>
+    SeCreateTokenPrivilege <br>
+    SeTcbPrivilege <br>
+    SeServiceLogonRight <br></p>
+
+<p> Third, run ssh-host-config (don't force the -y option) manually answer "YES" to
+all questions. If the scripts says "This script plans to sue cyg_server, Do you want to
+use a different name? Answer no. After this, it will create new privileged user 
+account 'cyg_server' with the passwd you assigned. </p>
+
+<p> Finally, run 'cyglsa-config' from Admin account. This will register the cygwin 
+LSA authentication package. Then, reboot.</p>
+
+<p> <b>4.</b> Add a new user:</p>
+<p> Always add new user as standard user. Then login, run cygwin shell 
+(don't do this from administrator) with command 'ssh-user-config, answer no to all 
+the questions, unless you want to use ssh-keys. </p> 
+
+<li><b>How to solve the fatal error of unable to remap dll</b><br>
+<p>The remap error is caused by the way how windows manage its dll files: 
+Windows uses ASLR (address space layout randomization) to manage its dll files, 
+which load dll files into different area of memory every time system is rebooted. 
+Cygwin setup program can change the record keeping, This happens especially for 
+python and perl script package were installed.</p> 
+
+
+<p> You need to do the following from Admin account to solve the error: </p>
+<p> <b>1.</b> Close all Cygwin processes. </p>
+<p> <b>2.</b> Right click My Computer -> Properties -> Advanced -> Environment Variables: 
+Click "Edit" under "User Variables for Administrator", Change "TEMP" and "TMP" from 
+"%USERPROFILE%\AppData\Local\Temp" to "c:\cygwin\tmp". </p>
+<p> <b>3.</b> Open a windows command prompt "cmd.exe". </p>
+<p> # cd c:\cygwin\bin <br>
+    # ash <br>
+    # /usr/bin/rebaseall <br></p>
+
+<p> <b>4.</b> Reverse step <b>2.</b> </p>
+
+</li>
+</ul>
+
+
+
+</body>
+</html>
+

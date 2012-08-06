@@ -1,0 +1,55 @@
+<html>
+<body>
+
+<h2>Hermes - Exodus and NetCDF HowTo</h2>
+
+<ul>
+<li><b>How to install ExoduxII and NetCDF libraries<br>
+       (necessary to read Cubit files in Hermes)</b><br>
+
+For system-wide installation do (as a root):<br>
+
+1) cd /<br>
+2)<br>
+64 bit:
+<br>
+wget http://hpfem.org/downloads/exodusii-bin-amd64-4.81.tar.gz<br>
+wget http://hpfem.org/downloads/netcdf-bin-amd64-4.0.1.tar.gz<br>
+<br>
+32 bit:<br>
+wget http://hpfem.org/downloads/exodusii-bin-i686-4.81.tar.gz<br>
+wget http://hpfem.org/downloads/netcdf-bin-i686-4.0.1.tar.gz<br>
+<br>
+3)<br> 
+tar xvzf exodusii-bin-*.tar.gz<br>
+tar xvzf netcdf-bin-*.tar.gz<br>
+4) <br>
+rm exodusii-bin-*.tar.gz<br>
+rm netcdf-bin-*.tar.gz<br>
+<br>
+This will unpack binary packages of netcdf and exodusii in to /opt/packages/netcdf <br>
+and /opt/packages/exodusii, respectively. If you do not like the location you can <br>
+change it to whatever you like, but you need to adjust the CMake variables accordingly <br>
+(see below).<br>
+
+<p>
+<b>To use exodusii support in Hermes2D:</b><br>
+
+- clone the repo (is you have done it yet)<br>
+- in CMake.vars, say:<br>
+ SET(WITH_EXODUSII YES)<br>
+ SET(EXODUSII_ROOT /opt/packages/exodusii)<br>
+ SET(NETCDF_ROOT   /opt/packages/netcdf)<br>
+<br>
+cmake .<br>
+make<br>
+<br>
+Note: the binary packages were prepared on Ubuntu 9.10 (64 bit and 32 bit). <br>
+They might work on other 64 and 32 bit machines, but we did not test that. <br>
+However, you can always build these packages by yourself if you are <br>
+on a different architecture (both are available for free).
+</ul>
+
+</body>
+</html>
+

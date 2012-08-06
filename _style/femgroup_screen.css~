@@ -1,0 +1,614 @@
+/***************************************
+ * TITLE: Prosimii Screen Stylesheet   * 
+ * URI  : prosimii/prosimii-screen.css *
+ * MODIF: 2004-Apr-28 21:43 +0800      *
+ ***************************************/
+
+
+/* ##### Common Styles ##### */
+
+body {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 73%;  /* Enables font size scaling in MSIE */
+  margin: 14px auto;
+  width: 980px;
+  padding: 0;
+  background-color: #ddd;
+  border: 1px solid #999;
+}
+
+html > body {
+  font-size: 9pt;
+}
+
+acronym, .titleTip {
+  border-bottom: 1px dotted rgb(61,92,122);
+  cursor: help;
+  margin: 0;
+  padding: 0 0 0.4px 0;
+}
+
+a {
+  color: rgb(61,92,122);
+  background-color: transparent;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0 1px 2px 1px;
+}
+
+a:hover {
+/*  color: rgb(117,144,174);*/
+  color: rgb(250,82,20);
+  text-decoration: none;
+}
+
+ol {
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: square;
+  margin: 1em 0 1.5em 0;
+  padding: 0;
+}
+
+dl {
+  margin: 1em 0 0.5em 0;
+  padding: 0;}
+
+ul li {
+  line-height: 1.5em;
+  margin: 1.25ex 0 0 1.5em;
+  padding: 0;
+}
+
+ol li {
+  line-height: 1.5em;
+  margin: 1.25ex 0 0 2em;
+  padding: 0;
+}
+
+dt {
+  font-weight: bold;
+  margin: 0;
+  padding: 0 0 1ex 0;
+}
+
+dd {
+  line-height: 1.75em;
+  margin: 0 0 1.5em 1.5em;
+  padding: 0;
+}
+
+.doNotDisplay {
+  display: none !important;
+}
+
+.smallCaps {
+  font-size: 117%;
+  font-variant: small-caps;
+}
+
+
+/* ##### Header ##### */
+
+.superHeader {
+  color: rgb(130,128,154);
+/*  background-color: rgb(20,40,70);*/
+  background-color: rgb(139,69,19);
+  text-align: right;
+  margin: 0;
+  padding: 0.5ex 10px;
+}
+
+.superHeader span {
+  color: rgb(195,196,210);
+  background-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.superHeader a {
+  color: rgb(195,196,210);
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 2px 0 0;
+}
+
+.superHeader a:hover {
+/*  color: rgb(193,102,90);*/
+  color: rgb(250,82,20);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.midHeader {
+  color: white;
+/*  background-color: rgb(61,92,122);*/
+  background-color: rgb(160, 82, 45);
+  margin: 0;
+  padding: 6px 8px;
+  height: 105px;
+  min-height: 80px;
+}
+
+.midHeaderBody {
+  margin: 0px 130px;
+  padding: 0px;
+}
+
+.headerTitle {
+  font-size: 33px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.headerSubTitle {
+  font-size: 15px;
+  font-weight: normal;
+  font-style: italic;
+  padding: 0;
+}
+
+.headerSubSubTitle {
+  font-size: 20px;
+  font-weight: normal;
+  font-style: italic;
+  padding: 0;
+}
+
+.headerUNRLogo {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.headerITLogo {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
+
+.headerLinks {
+  text-align: right;
+  margin: 0;
+  padding: 0 0 16px 0;
+  position: absolute;
+  right: 25px;
+  top: 50px;
+}
+
+.headerLinks a {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 0 4px 0;
+  display: block;
+}
+
+.headerLinks a:hover {
+  color: rgb(195,196,210);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.subHeader {
+  color: white;
+/*  background-color: rgb(117,144,174);*/
+  background-color: rgb(139,69,19);
+  margin: 0;
+  padding: 4px 10px;
+  text-align: left;
+}
+
+.subHeader a, .subHeader .highlight {
+  color: white;
+  background-color: transparent;
+  font-size: 110%;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0;
+  padding: 0 4px 0 0.5ex;
+}
+
+.subHeader a:hover, .subHeader .highlight {
+/*  color: rgb(255,204,0);
+  background-color: transparent;*/
+  color: rgb(210,180,140);
+/*  color: rgb(81,122,172);*/
+  background-color: transparent;  
+  text-decoration: none;
+}
+
+
+/* ##### Main Copy ##### */
+
+#main-copy {
+  margin: 0;
+  padding: 12px 18px;
+/*  clear: left;*/
+  background-color: #fff;
+}
+
+#main-copy h1 {
+  color: rgb(117,144,174);
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 16pt;
+  margin: 0;
+  padding: 8px 0;
+}
+
+#main-copy h2 {
+/*  color: rgb(61,92,122);*/
+  color: rgb(117,144,174);
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 13pt;
+  margin: 0;
+  padding: 8px 0;
+}
+
+#main-copy h3 {
+  color: black;
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-weight: bold;
+  font-size: 11pt;
+  margin: 0;
+  padding: 8px 0 0 0;
+}
+
+#main-copy p {
+  line-height: 1.5em;
+  margin: 1em 0em 1.5em 0em;
+  border-right: 10px;
+}
+
+#main-copy em {
+  color:  rgb(117,144,174);
+  font-style: italic;
+}
+
+#main-copy a {
+  font-weight: bold;
+}
+
+.newsHeading {
+  color: rgb(0,0,255);
+  background-color: transparent;
+  font-family: "trebuchet ms", verdana, helvetica, arial, sans-serif;
+  font-size: 145%;
+  text-decoration: none;
+  margin: 0;
+  padding: 1ex 0 0 0;
+  display: block;
+}
+
+.newsDate {
+  color: rgb(0,0,100);
+  font-style: italic;
+  margin: 0 !important;
+  padding: 0;
+}
+
+.newsSummary {
+  margin: 1.5ex 0 2.5ex 0.75ex !important;
+  padding: 0;
+}
+
+.more {
+  text-align: right;
+  margin: 0;
+  padding: 0.5em 0;
+}
+
+.more a {
+  color: rgb(61,92,122);
+  background-color: transparent;
+  font-size: 92%;
+  text-decoration: underline;
+  margin: 0;
+  padding: 0.25ex 0.75ex;
+}
+
+.more a:hover {
+  color: rgb(117,144,174);
+  text-decoration: none;
+}
+
+.rowOfBoxes {
+  clear: both;
+}
+
+.quarter, .oneThird, .half, .twoThirds, .fullWidth, .twoFifths, .fourFifths0, .fourFifths {
+  margin: 1em 0;
+  float: left;
+  /*border-left: 1px solid rgb(204,204,204);*/
+}
+
+.oneFifth {
+  margin: 0.5em 0;
+  float: left;
+  border-left: 1px solid rgb(210,180,140);
+  background-color: rgb(210, 180, 140);
+  height: 100%;
+}
+.quarter {
+  width: 21%;
+  padding: 0 1.9%;
+}
+
+.oneThird {
+  width: 30%;
+  padding: 0 1.9%;
+}
+
+.oneFifth {
+  width: 19.5%;
+  padding: 2px 2px;
+  border: 2px solid rgb(160,82,45);
+}
+
+.half {
+  text-align: justify;
+  width: 46%;
+  padding: 0 1.9%;
+}
+
+.twoThirds {
+  text-align: justify;
+  width: 63%;
+  padding: 0 1.9%;
+}
+
+.twoFifths {
+  text-align: left;
+  width: 37%;
+  padding: 0 1.2%;
+}
+
+.fourFifths0 {
+  margin: 0.5em 0;
+  text-align: justify;
+  width: 77%;
+  padding: 0 1%;
+}
+
+.fourFifths {
+  text-align: justify;
+  width: 77%;
+  padding: 0 1.2%;
+  height: 100%;
+  border-left: 1px solid rgb(204,204,204);
+}
+
+.fullWidth {
+  text-align: justify;
+  width: 96%;
+  padding: 0 1.2em;
+  border-left: none;
+}
+
+.filler {  /* use with an empty <p> element to add padding to the end of a text box */
+  /*border: 1px solid transparent; kvuli exploreru*/
+/*  border: 1px solid rgb(245, 250, 255);*/
+  border: 1px solid rgb(225, 240, 255);
+  background-color: transparent;
+}
+ 
+.noBorderOnLeft {
+  border-left: none;
+}
+
+.dividingBorderAbove {
+  border-top: 1px solid rgb(204,204,204);
+}
+
+/* More elegant alternatives to .noBorderOnLeft & .dividingBorderAbove
+ * that don't require the creation of new classes - but which are not
+ * supported by MSIE - are the following:
+ *
+ * .rowOfBoxes > div:first-child {
+ *   border-left: none;
+ * }
+ *
+ * .rowOfBoxes + .rowOfBoxes {
+ *   border-top: 1px solid rgb(204,204,204);
+ * }
+ */
+
+
+/* ##### Footer ##### */
+
+#footer {
+/*  color: rgb(51,51,102);
+  background-color: rgb(239,239,239);*/
+/*  background-color: rgb(33,50,66);*/
+  color: rgb(195,196,210);
+  background-color: rgb(139,69,19);
+  font-size: 87%;
+  text-align: center;
+  line-height: 1.25em;
+/*  margin: 2em 0 0 0;*/
+  padding: 0.5ex 10px;
+  clear: left;
+}
+
+#footer a {
+  color: rgb(195,196,210);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+#footer a:hover {
+  color: rgb(250,82,20);
+  text-decoration: underline;
+}
+
+.image-left, .image-right {
+  background-color: rgb(225, 240, 255);
+  padding: 5px;
+  margin: 15px;
+}
+
+.image-left {
+  float:  left;
+  margin: 0px 15px 0px 0px;
+}
+
+.image-right {
+  margin: 0px 0px 0px 15px;
+  float:  right;
+}
+
+.image-thumb {
+  text-align: center;
+  background-color: transparent;
+  margin: 5px 5px 5px 5px;
+}
+
+.thumbnail-description {
+  background-color: transparent;
+  margin: 5px 5px 5px 5px;
+  font-weight: bold;
+  font-size: 80%;
+  text-align: center;
+  color: rgb(117,144,174);
+}
+
+.image-thumb a img {
+  border-width: 0px;
+}
+
+/* registration form */
+
+fieldset {
+  margin: 10px 10px 10px 10px;
+}
+
+fieldset td {
+  padding: 5px 5px 5px 5px;
+}
+
+fieldset table {
+  width: 100%;
+}
+
+table .description {
+  color: rgb(51,82,112);
+  width: 25%;
+  text-align: right;
+}
+
+td a {
+  font-weight: bold;
+}
+
+table .required {
+  font-weight: bold;
+}
+
+.registration_form_footer {
+  width: 100%;
+  text-align: left;
+}
+
+.confirmation td {
+  padding: 5px 5px 5px 5px;
+}
+
+td.button_r {
+  text-align: left;
+  background-color: rgb(245, 250, 255)
+}
+
+td.button_l {
+  text-align: right;
+  background-color: rgb(245, 250, 255);
+}
+
+.confirmation .description {
+  font-weight: bold;
+}
+
+button {
+  background-color: rgb(101,142,192);
+  color: white;
+  border-width: 1px;
+  
+}
+
+.logform {
+  width: 90%;
+  font-size: 80%;
+}
+
+.logform_table {
+  width: 100%;
+}
+
+.logform_table .inputfield {
+  width: 60%;
+}
+
+div.right {
+  padding-left: 15px;
+  padding-right: 15px;
+  float: right;
+  width: 170px;
+  border: 1px solid #999;
+  background-color: rgb(248, 248, 248); 
+}
+
+div.right img {
+  border-width: 0px;
+}
+
+div.center {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 485px;
+  background-color: rgb(248, 248, 248); 
+  border: 1px solid #999;
+}
+
+div.left {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-bottom: 8px;
+  width: 170px;
+  background-color: rgb(248, 248, 248); 
+  border: 1px solid #999;
+}
+
+
+/* --- */
+
+.centered {
+  text-align: center;
+}
+
+/* Menu */
+
+.menu .creators { position:relative; text-align:left; font-family: Arial, Tahoma, Verdana, helvetica, sans-serif; }
+.menu .submenu a {background: rgb(130,69,19);}
+.menu .submenu { text-align:left; position:absolute; color:white; background: rgb(130,69,19); border:1px solid #d7b49a; padding: 0 15px; z-index:100; visibility: hidden; }
+.menu .submenu { filter: progid:DXImageTransform.Microsoft.Shadow(color="#8DBBD5", Direction=135, Strength=2) alpha(Opacity=90); -moz-opacity: 0.9; }
+.menu .submenu TABLE { margin:0 0; padding:0 0; }
+.menu .submenu TD { color:#666666; text-align:left; width:100%; background:none; padding:0 0; font-size:11px; font-weight:bold; font-family: Arial, Tahoma, helvetica, sans-serif; }
+.menu .submenu HR { border:none; border-top:1px solid #0A1A67; height:1px; color:#0A1A67; margin:0 0; font-size:8px; padding:0 0; line-height:8px }
+
+#navigation .creators { position:relative; text-align:left; font-family: Arial, Tahoma, Verdana, helvetica, sans-serif; }
+#navigation .submenu a {background: rgb(130,69,19);}
+#navigation .submenu { text-align:left; position:absolute; color:white; background: rgb(130,69,19); border:1px solid #d7b49a; padding: 0 15px; z-index:100; visibility: hidden; }
+#navigation .submenu { filter: progid:DXImageTransform.Microsoft.Shadow(color="#8DBBD5", Direction=135, Strength=2) alpha(Opacity=90); -moz-opacity: 0.9; }
+#navigation .submenu TABLE { margin:0 0; padding:0 0; }
+#navigation .submenu TD { color:#666666; text-align:left; width:100%; background:none; padding:0 0; font-size:11px; font-weight:bold; font-family: Arial, Tahoma, helvetica, sans-serif; }
+#navigation .submenu HR { border:none; border-top:1px solid #0A1A67; height:1px; color:#0A1A67; margin:0 0; font-size:8px; padding:0 0; line-height:8px }
