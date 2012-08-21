@@ -38,7 +38,7 @@
           <a href="http://www.zcu.cz" target="blank"><img src="../_images/zcu_logo.png" alt="University of West Bohemia, Pilsen" title="University of West Bohemia, Pilsen" /></a>
         </div>
         <div id="ITAVLogo" onmouseover="$(this).css('opacity', 1.0);$('#ZCULogo').css('opacity', 0.8);$('#UNRLogo').css('opacity', 0.8);" onmouseout="$(this).css('opacity', 0.9);$('#ZCULogo').css('opacity', 0.9);$('#UNRLogo').css('opacity', 0.9);" class="logo2 doNotPrint">
-          <a href="www.it.cas.cz" target="blank"><img src="../_images/it_logo.png" alt="Institute of Thermomechanics, Prague" title="Institute of Thermomechanics, Prague" /></a>
+          <a href="http://www.it.cas.cz" target="blank"><img src="../_images/it_logo.png" alt="Institute of Thermomechanics, Prague" title="Institute of Thermomechanics, Prague" /></a>
         </div>
         
         <div class="headerITLogo doNotPrint"><img src="../_images/header.png" alt="Hermes Gallery" style="z-index:3;" title="Hermes Gallery" /></div>
@@ -53,15 +53,10 @@
     <div id="navigation">        
         <span class="doNotDisplay">Navigation:</span>
         <a href="../">Home</a> |
-        <a href="../people/">Hermes</a> |
-<!--        <a href="../main/hermes.php">Hermes</a> |
-        <a href="http://femhub.org/">FEMhub</a> |
-        <a href="../agros2d/">Agros</a> |
--->
-        <a href="../gallery/">Other projects</a> |
-        <a href="../publications/">Team</a> |
-        <a href="../events/">Events</a> |
-        <a href="../main/links.php">Links</a>
+        <a href="../hermes/">Hermes2D &amp; 3D</a> |
+				<a href="../gallery/">Agros2D</a> |
+        <a href="../people/">People &amp; Group</a> |
+        <a href="../events/">Events</a>
     </div>
     </div>
   </div>

@@ -1,47 +1,5 @@
-<?phprequire_once('../header.php');?>
-
-<div class="right" style="width: 250px;">
-
-<p> </p>
-<center>
-<img src="images/hangno-3d-1.jpg" width="240" height="150"><br>
-Arbitrary-level hanging nodes in 3D (part 1)
-</center>
-
-<br/>
-
-<center>
-<img src="images/hangno-3d-2.jpg" width="240" height="140"><br>
-Arbitrary-level hanging nodes in 3D (part 2)
-</center>
-
-<br/>
-
-<center>
-<img src="images/vertex.jpg" width="200" height="180"><br>
-Vertex function
-</center>
-
-<br/>
-
-<center>
-<img src="images/edge.jpg" width="200" height="180"><br>
-Higher-order edge function
-</center>
-
-<br/>
-
-<center>
-<img src="images/face.jpg" width="200" height="180"><br>
-Higher-order face function
-</center>
-
-<br/>
-
-</div>
-
-
-
+<?php require_once('../header.php');?>
+<div class="center">
 <p>
 <h1>Conferences of Interest in 2012</h1>
 <ul>
@@ -203,6 +161,6 @@ FEMTEC 2009</a>, Lake Tahoe, January 4 - 9, 2009.<br>
 Proceedings: Journal of Computational and Applied Mathematics (has impact factor)
 </li>
 </ul>
-
-
-<?phprequire_once('../footer.php');?>
+</div>
+<?php require_once('../right-latest.php');?>
+<?php require_once('../footer.php');?>

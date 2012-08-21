@@ -12,73 +12,64 @@
   
   <h2>Products (hover the mouse over a product to see details underneath)</h2>
   <div id="products">
-    <div id="product1" class="product" onmouseover="if($('#descHermesLong').css('display') != 'block') { $('#descHermesLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
-      <img src="gallery/images/hermes-show/both_errors.png" class="active"/>
-      <img src="gallery/images/hermes-show/cand_list_quads.png"/>
-      <img src="gallery/images/hermes-show/elast.png"/>
-      <img src="gallery/images/hermes-show/dynam-1-mesh.png"/>
-      <img src="gallery/images/hermes-show/micro.png"/>
-      <img src="gallery/images/hermes-show/g7.png"/>
-      <img src="gallery/images/hermes-show/sodium-F-1.png"/>
-      <img src="gallery/images/hermes-show/step-conv400.png"/>
-      <img src="gallery/images/hermes-show/shock-sln.png"/>
-      <img src="gallery/images/hermes-show/solinfig9.png"/>
-      <img src="gallery/images/hermes-show/neutro_3.png"/>
-      <img src="gallery/images/hermes-show/mesh_irreg2.png"/>
+    <div id="product1" class="product" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
+      <img src="gallery/images/hermes2d-show/both_errors.png" class="active"/>
+      <img src="gallery/images/hermes2d-show/cand_list_quads.png"/>
+      <img src="gallery/images/hermes2d-show/elast.png"/>
+      <img src="gallery/images/hermes2d-show/dynam-1-mesh.png"/>
+      <img src="gallery/images/hermes2d-show/micro.png"/>
+      <img src="gallery/images/hermes2d-show/g7.png"/>
+      <img src="gallery/images/hermes2d-show/sodium-F-1.png"/>
+      <img src="gallery/images/hermes2d-show/step-conv400.png"/>
+      <img src="gallery/images/hermes2d-show/solinfig9.png"/>
+      <img src="gallery/images/hermes2d-show/neutro_3.png"/>
+      <img src="gallery/images/hermes2d-show/mesh_irreg2.png"/>
     </div>
-    <div id="product2" class="product" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermesLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
-      <img src="gallery/images/hermes-show/both_errors.png" class="active"/>
-      <img src="gallery/images/hermes-show/cand_list_quads.png"/>
-      <img src="gallery/images/hermes-show/elast.png"/>
-      <img src="gallery/images/hermes-show/dynam-1-mesh.png"/>
-      <img src="gallery/images/hermes-show/micro.png"/>
-      <img src="gallery/images/hermes-show/g7.png"/>
-      <img src="gallery/images/hermes-show/sodium-F-1.png"/>
-      <img src="gallery/images/hermes-show/step-conv400.png"/>
-      <img src="gallery/images/hermes-show/shock-sln.png"/>
-      <img src="gallery/images/hermes-show/solinfig9.png"/>
-      <img src="gallery/images/hermes-show/neutro_3.png"/>
-      <img src="gallery/images/hermes-show/mesh_irreg2.png"/>
+    <div id="product2" class="product" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170.png" class="active"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170.png"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png"/>
+				<img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170.png"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170.png"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_macosx_order-170x170.png"/>
+      <img widht="250px" height="250px" src="gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170.png"/>
     </div>
-    <div id="product3" class="product" onmouseover="if($('#descNCLabLong').css('display') != 'block') { $('#descNCLabLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermesLong').removeClass('descLongActive');});}">
-      <img src="gallery/images/hermes-show/both_errors.png" class="active"/>
-      <img src="gallery/images/hermes-show/cand_list_quads.png"/>
-      <img src="gallery/images/hermes-show/elast.png"/>
-      <img src="gallery/images/hermes-show/dynam-1-mesh.png"/>
-      <img src="gallery/images/hermes-show/micro.png"/>
-      <img src="gallery/images/hermes-show/g7.png"/>
-      <img src="gallery/images/hermes-show/sodium-F-1.png"/>
-      <img src="gallery/images/hermes-show/step-conv400.png"/>
-      <img src="gallery/images/hermes-show/shock-sln.png"/>
-      <img src="gallery/images/hermes-show/solinfig9.png"/>
-      <img src="gallery/images/hermes-show/neutro_3.png"/>
-      <img src="gallery/images/hermes-show/mesh_irreg2.png"/>
+    <div id="product3" class="product" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');});}">
+      <img src="gallery/images/hermes3d-show/bessel-sln.png" class="active"/>
+      <img src="gallery/images/hermes3d-show/layer-mesh.png"/>
+      <img src="gallery/images/hermes3d-show/layer-sln.png"/>
+      <img src="gallery/images/hermes3d-show/fichera-mesh.png"/>
+      <img src="gallery/images/hermes3d-show/fichera-sln.png"/>
+      <img src="gallery/images/hermes3d-show/shock-sln.png"/>
     </div>
   </div>
   <div id="productDesc">
-    <div id="descHermes" class="descTitle" onmouseover="if($('#descHermesLong').css('display') != 'block') { $('#descHermesLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
-      Hermes
+    <div id="descHermes" class="descTitle" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
+      Hermes2D
     </div>
-    <div id="descAgros" class="descTitle" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermesLong').removeClass('descLongActive');$('#descNCLabLong').removeClass('descLongActive');});}">
+    <div id="descAgros" class="descTitle" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
        	Agros2D
     </div>
-    <div id="descNCLab" class="descTitle" onmouseover="if($('#descNCLabLong').css('display') != 'block') { $('#descNCLabLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermesLong').removeClass('descLongActive');});}">
-      NCLab
+    <div id="descHermes3D" class="descTitle" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');});}">
+      Hermes3D
     </div>
    
   </div> 
   <div id="descLong">
-    <div id="descHermesLong" class="descLong descLongActive">
-      <h3>Hermes - hp-FEM &amp; hp-DG C++ library</h3>
+    <div id="descHermes2DLong" class="descLong descLongActive">
+      <h3>Hermes2D - advanced hp-FEM &amp; hp-DG C++ library</h3>
       Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms are designed to solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear multiphysics PDE systems. The code is distributed under the GNU General Public License (Hermes2D and Hermes3D) and BSD License (Hermes1D).
     </div>
     <div id="descAgrosLong" class="descLong">
       <h3>Agros2D - graphical PDE Engineering tool</h3>
       Agros2D is a multiplatform C++ application for the solution of partial differential equations (PDE) based on the Hermes library, developed by the group at the University of West Bohemia in Pilsen. Agros2D is distributed under the GNU General Public License.
     </div>
-    <div id="descNCLabLong" class="descLong">
-      <h3>NCLab - new way of computing</h3>
-      The goal of the NCLab (Networked Computing Laboratory) is to make computing accessible to anyone. No need to own a strong computer or buy expensive software. Everything takes place inside the web browser window, that turns into a virtual computer desktop. The NCLab is developed by the hp-FEM group at the University of Nevada, Reno.
+    <div id="descHermes3DLong" class="descLong">
+      <h3>Hermes3D - 3D FEM code</h3>
+      Our goal is to extend the advanced adaptivity and other capabilities of Hermes2D library into 3 dimensions. Our legacy 3D code (Hermes3D) lags behind Hermes2D in terms of capabilities of the code so far, but we want to change it.
     </div>
   </div>
 
@@ -161,7 +152,7 @@
     </td>
     </tr>
     <tr style="vertical-align:top;">
-      <td><span style="font-weight:bold">Pavel Solin</span><br />(group leader, NCLab)</td>
+      <td><span style="font-weight:bold">Pavel Solin</span><br />(group leader, Femhub Inc.)</td>
       <td><span style="font-weight:bold">Lukas Korous</span><br />(Hermes main developer)</td>
       <td><span style="font-weight:bold">Pavel Karban</span><br />(Agros2D main developer)</td>
       <td><span style="font-weight:bold">Pavel Kus</span><br />(Agros2D, Hermes3D)</td>
@@ -169,18 +160,27 @@
     </tr>
   </table>
 
-  <h2>Hermes</h2>
+  <h3>International Conferences ESCO and FEMTEC</h3>
+
+  <p>
+  We organize two series of international conferences: European Seminar on Coupled Problems (ESCO
+  <a href="http://esco2012.femhub.com">2012</a>, 
+  <a href="http://hpfem.org/events/esco-2010/">2010</a>, 
+  <a href="http://hpfem.org/events/esco-2008/">2008</a>) 
+  in Europe and Finite Element Methods in Engineering 
+  and Science (FEMTEC
+  <a href="http://hpfem.org/events/femtec-2011/">2011</a>, 
+  <a href="http://hpfem.org/events/femtec-2009/">2009</a>, 
+  <a href="http://hpfem.org/events/femtec-2006/">2006</a>) in the U.S.
+
+  </p>
+
+  <h3>Hermes video tutorials</h2>
 
   <p>
   <center>
   <a href="http://hpfem.org/hermes"><img src="main/images/hvt.png" width=400px ></a>
   </center>
-  </p>
-
-  <p>
-  Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms 
-  help solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear 
-  multiphysics PDE systems. 
   </p>
 
   <h3>Use Hermes through NCLab</h3>
@@ -200,21 +200,6 @@
   </center>
   <p>
   NCLab is a third-party product that is not developed by our group at UNR.
-
-  <h3>International Conferences ESCO and FEMTEC</h3>
-
-  <p>
-  We organize two series of international conferences: European Seminar on Coupled Problems (ESCO
-  <a href="http://esco2012.femhub.com">2012</a>, 
-  <a href="http://hpfem.org/events/esco-2010/">2010</a>, 
-  <a href="http://hpfem.org/events/esco-2008/">2008</a>) 
-  in Europe and Finite Element Methods in Engineering 
-  and Science (FEMTEC
-  <a href="http://hpfem.org/events/femtec-2011/">2011</a>, 
-  <a href="http://hpfem.org/events/femtec-2009/">2009</a>, 
-  <a href="http://hpfem.org/events/femtec-2006/">2006</a>) in the U.S.
-
-  </p>
 
   <h3>The Dark Side of FEM</h3>
 
