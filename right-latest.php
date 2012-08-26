@@ -96,10 +96,6 @@ a single git repository <a href="http://github.com/hpfem/hermes">Hermes</a>.
 Septeber 2010: New version of Hermes2D merged into upstream.
 </li>
 <li>
-July 2010: New version of H2D in progress in
-branch <a href="http://github.com/solin/hermes2d/commits/change">change</a>. 
-</li>
-<li>
 June 28 - July 3: <a href="http://hpfem.org/events/esco-2010/">ESCO 2010</a> was a great success!
 </li>
 <li>
@@ -115,13 +111,13 @@ March 18, 2010: Plenary lecture
 for 160 people on scientific computing on the occasion of the 
 <a href="http://www.lawrencehallofscience.org/jshs/">Junior 
 Science and Humanities Symposium (JSHS)</a>. The 
-presentation (minus movies) is <a href="data/circus-circus.pdf">here</a>.
+presentation (minus movies) is <a href="main/data/circus-circus.pdf">here</a>.
 </li>
 <li>
 Glen Hansen from INL visited in February 2010
-and gave several lectures on <a href="data/hansen-1.pdf">JFNK</a> 
-and <a href="data/hansen-2.pdf">Trilinos</a>. The computer 
-codes he used are  <a href="data/heat-eq.tar.gz">here</a>.
+and gave several lectures on <a href="main/data/hansen-1.pdf">JFNK</a> 
+and <a href="main/data/hansen-2.pdf">Trilinos</a>. The computer 
+codes he used are  <a href="main/data/heat-eq.tar.gz">here</a>.
 </li>
 <li>
 Bill Mitchell from NIST visited in December 2009.

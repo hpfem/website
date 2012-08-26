@@ -1,9 +1,0 @@
-This is the old howto directory, that was ported to:
-
-http://github.com/hpfem/hermes/wiki
-
-it is here for archival purposes, until we verify that everything was ported,
-then it should be deleted. Please do not update this directory, but use the
-wiki above at github instead.
-
-Ondrej 9/27/2010

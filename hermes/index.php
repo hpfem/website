@@ -1,6 +1,6 @@
 <?php require_once('../header.php');?>
 <div class="center">
-	<h2>Hermes</h2>
+	<h1>Hermes 2D hp-FEM &amp; hp-DG library</h1>
 
 	Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel  
 	hp-adaptivity algorithms help solve a large variety of problems ranging from ODE and stationary 
@@ -44,47 +44,83 @@
 	Hermes is being developed by a community around the <a href="http://hpfem.org">hp-FEM group</a> 
 	at the University of West Bohemia and the University of Nevada, Reno (UNR). Everybody is welcome to contribute. 
 	Each successful contributor becomes a co-author of the library.
+	
+	<h1>Hermes 3D - legacy code</h1>
+		Hermes 3D is a legacy code whose development is suspended, but it will become our focus in the forthcoming year 2013.
+	<div id="products" style="height:310px; margin-top:15px;">
+		<div id="productHermes" class="product">
+			<img src="images/hangno-3d-2.jpg" class="active" height="300px"/>
+			<img src="images/vertex.jpg"  height="300px"/>
+			<img src="images/edge.jpg" height="300px"/>
+			<img src="images/hangno-3d-2.jpg" height="300px"/>
+			<img src="images/hangno-3d-1.jpg" height="300px"/>
+			<img src="images/face.jpg" height="300px"/>
+			
+		</div>
 	</div>
 
+  <script type="text/javascript">
+    function slideSwitchHermes() {
+        var $active = $('#productHermes IMG.active');
+        var $next =  $active.next().length ? $active.next()
+        : $('#productHermes IMG:first');
+
+        $active.addClass('last-active');
+
+        $next.css({opacity: 0.0})
+            .addClass('active')
+            .animate({opacity: 1.0}, 1100, function() {
+                $active.removeClass('active last-active');
+            });
+    }
+		
+    $(function() {
+        setInterval( "slideSwitchHermes()", 1500 );
+    });
+  </script>
+	
+	<div style="clear:both;height:10px;"></div>
+	</div>
+	
+	
 	<div class="right rightSmall">
-	<h3>Hermes Version 1.0</h3>
-	<p>
-	C++ sources:
+	<h3 style="text-align:center;">Hermes 2D<br />hpFEM &amp; hpDG library</h3>
+	<h4>C++ sources</h4>
 	<ul>
-	<li><a href="https://github.com/hpfem/hermes">Hermes library repository</a></li>
-	<li><a href="https://github.com/hpfem/hermes-tutorial">Hermes tutorial repository</a></li>
-	<li><a href="https://github.com/hpfem/hermes-examples">Hermes examples repository</a></li>
+	<li><a href="https://github.com/hpfem/hermes">Hermes library repository</a>
+	<ul>
+		<li>branch <span style="font-style:italic;">master</span>: current OpenMP release version</br>
+		<li>branch <span style="font-style:italic;">devel</span>: up-to-date OpenMP development version</br>
+		<li>branch <span style="font-style:italic;">serial (outdated)</span>: outdated serial version</br>
 	</ul>
-	Sphinx documentation:
-	<ul>
-	<li><a href="hermes/doc/_build/html/index.html">Hermes-Library</a></li>
-	<li><a href="hermes-tutorial/doc/_build/html/index.html">Hermes-Tutorial</a></li>
-	<li><a href="hermes-examples/doc/_build/html/index.html">Hermes-Examples</a></li>
+	</li>
+	<li><a href="https://github.com/hpfem/hermes-tutorial">Hermes tutorial repository</a>
+	<br /><br />- branches organization follows library repository
+	</li>
+	<li><a href="https://github.com/hpfem/hermes-examples">Hermes examples repository</a>
+	<br /><br />- branches organization follows library repository
+	</li>
 	</ul>
-	Doxygen developer docs:
+	<h4>Sphinx documentation<h4>
 	<ul>
-	<li><a href="hermes/hermes_common/doc/html/index.html">Hermes - Common code</a></li>
-	<li><a href="hermes/hermes2d/doc/html/index.html">Hermes - 2D code</a></li>
+	<li><a href="hermes/doc/_build/html/index.html">Hermes 2D library</a></li>
+	<li><a href="hermes-tutorial/doc/_build/html/index.html">Hermes - tutorial repository (OpenMP version)</a></li>
+	<li><a href="hermes-examples/doc/_build/html/index.html">Hermes - examples repository (OpenMP version)</a></li>
+	<hr>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/doc/_build/html/index.html">Hermes 2D serial library (outdated)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes-tutorial/doc/_build/html/index.html">Hermes - tutorial repository (outdated serial version)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes-examples/doc/_build/html/index.html">Hermes - examples repository (outdated serial version)</a></li>
+	</ul>
+	<h4>Doxygen developer docs</h4>
+	<ul>
+	<li><a href="hermes/hermes_common/doc/html/index.html">Hermes 2D OpenMP - Common code</a></li>
+	<li><a href="hermes/hermes2d/doc/html/index.html">Hermes 2D OpenMP - 2D specific code</a></li>
 	</ul>
 	
-	<h3>Legacy code</h3>
-	<p>
-	<a href="https://github.com/hpfem/hermes-legacy">Git Repository</a><br>
-	<a href="hermes-legacy/doc/_build/html/index.html">User Documentation</a><br>
-	</p>
+	<h3>Legacy code - Hermes 3D</h3>
+	<h4><a href="https://github.com/hpfem/hermes-legacy" style="color:black;margin-left:15px;">Git Repository</a></h4>
+		<h4><a href="../../www2-old/hermes-legacy/doc/_build/html/index.html" style="color:black;margin-left:15px;">User Documentation</a></h4>
 	
-	Python wrappers:
-	<ul>
-	<li><a href="https://github.com/hpfem/hermes-python">Hermes-Python.git</a></li>
-	</ul>
 	
-	YouTube Video Tutorials:
-
-	<p>
-	<center>
-	<a href="http://www.youtube.com/user/HermesVideoTutorial"><img src="images/hvt.png" width=180px ></a>
-	</center>
-	</p>
-
 </div>
 <?php require_once('../footer.php');?>

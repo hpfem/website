@@ -8,7 +8,7 @@
   <link rel="stylesheet" type="text/css" href="../_style/femgroup_screen.css" media="screen, tv, projection" title="Default" />
   <link rel="stylesheet alternative" type="text/css" href="../_style/femgroup_print.css" media="screen" title="Print Preview" />
   <link rel="stylesheet" type="text/css" href="../_style/femgroup_print.css" media="print" />
-  <script src="js/jquery.js" type="text/javascript"></script>
+  <script src="../js/jquery.js" type="text/javascript"></script>
   <script src="../_player/flowplayer.js"></script>
   <title>hpFEM.org group</title>
 
@@ -27,7 +27,6 @@
 </script>
 </head>
 <body>
-    <div id="top"><a href="#main-copy" class="doNotDisplay doNotPrint">Skip to main content.</a></div>
     <div id="header">
       <div class="superHeader">&nbsp;</div>
       <div class="midHeader">
@@ -54,7 +53,7 @@
         <span class="doNotDisplay">Navigation:</span>
         <a href="../">Home</a> |
         <a href="../hermes/">Hermes2D &amp; 3D</a> |
-				<a href="../gallery/">Agros2D</a> |
+				<a href="../agros2d/">Agros2D</a> |
         <a href="../people/">People &amp; Group</a> |
         <a href="../events/">Events</a>
     </div>

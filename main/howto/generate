@@ -1,2 +1,0 @@
-rst2html howto-trilinos.rst > howto-trilinos.html
-rst2html howto-hooks.rst > howto-hooks.html

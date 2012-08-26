@@ -14,8 +14,8 @@
 
 	<p>
 
-	<a href="/movies/shock/compress_sol_0.05.avi"><img src="/movies/shock/compress_density.jpg" width=350px></a>
-	<a href="/movies/shock/compress_mesh_0.05.avi"><img src="/movies/shock/compress_mesh.jpg" width=350px></a><br>
+	<a href="../movies/shock/compress_sol_0.05.avi"><img src="../movies/shock/compress_density.jpg" width=350px></a>
+	<a href="../movies/shock/compress_mesh_0.05.avi"><img src="../movies/shock/compress_mesh.jpg" width=350px></a><br>
 
 	<h3>Gross-Pitaevski equation of quantum chemistry</h3>
 
@@ -26,8 +26,8 @@
 
 	<p>
 
-	<a href="/movies/gross-pitaevski/mag.avi"><img src="/movies/gross-pitaevski/mag.jpg" width=275px></a>
-	<a href="/movies/gross-pitaevski/mesh.avi"><img src="/movies/gross-pitaevski/mesh.jpg" width=300px></a><br>
+	<a href="../movies/gross-pitaevski/mag.avi"><img src="../movies/gross-pitaevski/mag.jpg" width=275px></a>
+	<a href="../movies/gross-pitaevski/mesh.avi"><img src="../movies/gross-pitaevski/mesh.jpg" width=300px></a><br>
 
 	<h3>Two-component incompressible viscous flow</h3>
 
@@ -39,11 +39,11 @@
 
 	<p>
 
-	<a href="/movies/itracking/level-set.avi"><img src="/movies/itracking/lset4.png" width=300px></a>
-	<a href="/movies/itracking/velocity.avi"><img src="/movies/itracking/vel4.jpg" width=300px></a><br>
+	<a href="../movies/itracking/level-set.avi"><img src="../movies/itracking/lset4.png" width=300px></a>
+	<a href="../movies/itracking/velocity.avi"><img src="../movies/itracking/vel4.jpg" width=300px></a><br>
 
 	The time-dependent meshes are shown 
-	<a href="/movies/itracking/iface-meshes.avi">here</a>.<br>
+	<a href="../movies/itracking/iface-meshes.avi">here</a>.<br>
 
 	<h3>Heat and Moisture Transfer in Massive Concrete Walls of a Nuclear Reactor Vessel</h3>
 
@@ -59,9 +59,9 @@
 
 	<p>
 
-	<a href="/movies/heat_and_moisture/hm-sln.avi"><img src="/movies/heat_and_moisture/shot0003.png" width=400px></a><br>
+	<a href="../movies/heat_and_moisture/hm-sln.avi"><img src="../movies/heat_and_moisture/shot0003.png" width=400px></a><br>
 
-	Evolution of the corresponding hp-meshes is shown <a href="/movies/heat_and_moisture/hm-mesh.avi">here</a>.
+	Evolution of the corresponding hp-meshes is shown <a href="../movies/heat_and_moisture/hm-mesh.avi">here</a>.
 
 	<h3>Flame propagation</h3>
 
@@ -75,8 +75,8 @@
 
 	<p>
 
-	<a href="/movies/combust/combust.avi"><img src="/movies/combust/shot0010_small.jpg" style="width: 100%; max-width: 480px" /></a><br>
-	A similar video for h-adaptivity with first-order elements is shown <a href="/movies/combust/combust_h.avi">here</a>.
+	<a href="../movies/combust/combust.avi"><img src="../movies/combust/shot0010_small.jpg" style="width: 100%; max-width: 480px" /></a><br>
+	A similar video for h-adaptivity with first-order elements is shown <a href="../movies/combust/combust_h.avi">here</a>.
 
 	<h3>Navier-Stokes equations with heat transfer</h3>
 
@@ -91,12 +91,12 @@
 
 	<p>
 
-	<a href="/movies/ns-thermal/ns_solution.avi"><img src="/movies/ns-thermal/shot0006_small.jpg" style="width: 100%; max-width: 370px" /></a><br>
+	<a href="../movies/ns-thermal/ns_solution.avi"><img src="../movies/ns-thermal/shot0006_small.jpg" style="width: 100%; max-width: 370px" /></a><br>
 	Corresponding meshes for the velocity and temperature fields are 
-	<a href="/movies/ns-thermal/ns_meshes.avi">here</a>. You can also see the detail 
+	<a href="../movies/ns-thermal/ns_meshes.avi">here</a>. You can also see the detail 
 	of the upper edge of the obstacle 
-	(<a href="/movies/ns-thermal/ns_solution_zoom.avi">velocity + temperature</a> and 
-	<a href="/movies/ns-thermal/ns_meshes_zoom.avi">meshes</a>).
+	(<a href="../movies/ns-thermal/ns_solution_zoom.avi">velocity + temperature</a> and 
+	<a href="../movies/ns-thermal/ns_meshes_zoom.avi">meshes</a>).
 
 	<h3>Microwave heating</h3>
 
@@ -113,7 +113,7 @@
 
 	<p>
 
-	<a href="/movies/microwave/micro_circle1.avi"><img src="/movies/microwave/micro_circle.jpg" style="width: 100%; max-width: 480px"/></a>.
+	<a href="../movies/microwave/micro_circle1.avi"><img src="../movies/microwave/micro_circle.jpg" style="width: 100%; max-width: 480px"/></a>.
 
 	<h3>Thermoelasticity</h3>
 
@@ -125,10 +125,10 @@
 
 	<p>
 
-	<img src="/movies/thermoel/thermoelast_small.jpg" style="width: 100%; max-width: 450px"/>
+	<img src="../movies/thermoel/thermoelast_small.jpg" style="width: 100%; max-width: 450px"/>
 	<br>
 
-	<a href="/movies/thermoel/video.avi">Temperature / displacement evolution</a><br>
+	<a href="../movies/thermoel/video.avi">Temperature / displacement evolution</a><br>
 
 	<h3>Navier-Stokes equations</h3>
 
@@ -141,21 +141,21 @@
 
 	<p>
 
-	<img src="/movies/ns/cube20k-180-nomeshB.png" style="width: 100%; max-width: 360px" /><br>
+	<img src="../movies/ns/cube20k-180-nomeshB.png" style="width: 100%; max-width: 360px" /><br>
 
-	<a href="/movies/ns/cube-5k-nomesh.avi">Re = 5000</a><br>
-	<a href="/movies/ns/cube-5k-mesh.avi">Re = 5000, with mesh</a><br>
-	<a href="/movies/ns/cube-5k-zoom.avi">Re = 5000, with mesh, zoom</a><br>
-	<a href="/movies/ns/cube-20k-nomesh.avi">Re = 20000</a><br>
-	<a href="/movies/ns/cube-20k-mesh.avi">Re = 20000, with mesh</a><br>
-	<a href="/movies/ns/cube-20k-zoom.avi">Re = 20000, with mesh, zoom</a><br>
-	<a href="/movies/ns/cube-100k-nomesh.avi">Re = 100000</a><br>
-	<a href="/movies/ns/cube-100k-mesh.avi">Re = 100000, with mesh</a><br>
-	<a href="/movies/ns/cube-100k-zoom.avi">Re = 100000, with mesh, zoom</a><br>
-	<a href="/movies/ns/cube-500k-nomesh.avi">Re = 500000</a><br>
-	<a href="/movies/ns/cube-500k-mesh.avi">Re = 500000, with mesh</a><br>
-	<a href="/movies/ns/cube-500k-zoom2.avi">Re = 500000, zoom</a><br>
-	<a href="/movies/ns/cube-500k-zoom.avi">Re = 500000, with mesh, zoom</a><br>
+	<a href="../movies/ns/cube-5k-nomesh.avi">Re = 5000</a><br>
+	<a href="../movies/ns/cube-5k-mesh.avi">Re = 5000, with mesh</a><br>
+	<a href="../movies/ns/cube-5k-zoom.avi">Re = 5000, with mesh, zoom</a><br>
+	<a href="../movies/ns/cube-20k-nomesh.avi">Re = 20000</a><br>
+	<a href="../movies/ns/cube-20k-mesh.avi">Re = 20000, with mesh</a><br>
+	<a href="../movies/ns/cube-20k-zoom.avi">Re = 20000, with mesh, zoom</a><br>
+	<a href="../movies/ns/cube-100k-nomesh.avi">Re = 100000</a><br>
+	<a href="../movies/ns/cube-100k-mesh.avi">Re = 100000, with mesh</a><br>
+	<a href="../movies/ns/cube-100k-zoom.avi">Re = 100000, with mesh, zoom</a><br>
+	<a href="../movies/ns/cube-500k-nomesh.avi">Re = 500000</a><br>
+	<a href="../movies/ns/cube-500k-mesh.avi">Re = 500000, with mesh</a><br>
+	<a href="../movies/ns/cube-500k-zoom2.avi">Re = 500000, zoom</a><br>
+	<a href="../movies/ns/cube-500k-zoom.avi">Re = 500000, with mesh, zoom</a><br>
 
 	<h3>Automatic hp-adaptivity in a waveguide</h3>
 
@@ -169,10 +169,10 @@
 
 	<p>
 
-	<img src="/movies/waveguide/waveguide_sol_small.jpg" style="width: 100%; max-width: 420px" /><br>
+	<img src="../movies/waveguide/waveguide_sol_small.jpg" style="width: 100%; max-width: 420px" /><br>
 
-	<a href="/movies/waveguide/waveguide_sol.avi">Development of solution during automatic hp-adaptivity</a><br>
-	<a href="/movies/waveguide/waveguide_err.avi">Reduction of error during automatic hp-adaptivity</a><br>
+	<a href="../movies/waveguide/waveguide_sol.avi">Development of solution during automatic hp-adaptivity</a><br>
+	<a href="../movies/waveguide/waveguide_err.avi">Reduction of error during automatic hp-adaptivity</a><br>
 
 
 	<h3>Automatic hp-adaptivity in L-shape domain</h3>
@@ -183,9 +183,9 @@
 
 	<p>
 
-	<img src="/movies/hpadapt/hpadapt1_small.jpg" style="width: 100%; max-width: 420px" /><br>
+	<img src="../movies/hpadapt/hpadapt1_small.jpg" style="width: 100%; max-width: 420px" /><br>
 
-	<a href="/movies/hpadapt/mesherror.avi">Reduction of error during automatic hp-adaptivity</a><br>
+	<a href="../movies/hpadapt/mesherror.avi">Reduction of error during automatic hp-adaptivity</a><br>
 
 </div>
 

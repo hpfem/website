@@ -26,16 +26,16 @@
       <img src="gallery/images/hermes2d-show/mesh_irreg2.png"/>
     </div>
     <div id="product2" class="product" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170.png" class="active"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170.png"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png"/>
-				<img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170.png"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170.png"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/screenshot_macosx_order-170x170.png"/>
-      <img widht="250px" height="250px" src="gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170.png" class="active"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png"/>
+			<img height="250px" src="gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/screenshot_macosx_order-170x170.png"/>
+      <img height="250px" src="gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170.png"/>
     </div>
     <div id="product3" class="product" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');});}">
       <img src="gallery/images/hermes3d-show/bessel-sln.png" class="active"/>
@@ -175,17 +175,10 @@
 
   </p>
 
-  <h3>Hermes video tutorials</h2>
-
-  <p>
-  <center>
-  <a href="http://hpfem.org/hermes"><img src="main/images/hvt.png" width=400px ></a>
-  </center>
-  </p>
-
   <h3>Use Hermes through NCLab</h3>
 
   <p>
+	Hermes in its older (serial) version can be used in online tool <a href="http://www.nclab.com" target="blank">NCLab</a> thanks to <a href="http://www.github.com/hpfem/hermes-python" target="blank">Python wrappers</a> <span style="font-weight:bold;">(for the serial version)</span>.
   <center>
   <a href="https://nclab.com">
   <img align="center" src="main/images/nclab-1.png" width="200" 
@@ -199,7 +192,7 @@
   </a>
   </center>
   <p>
-  NCLab is a third-party product that is not developed by our group at UNR.
+  <a href="http://www.nclab.com" target="blank">NCLab</a> is a third-party product that is not developed by our group at UNR.
 
   <h3>The Dark Side of FEM</h3>
 

@@ -34,7 +34,7 @@ Abstract deadline: December 15, 2010<br>
 Proceedings: TBA
 </li>
 <li>
-<a href="http://hpfem.org/events/femtec-2011/">FEMTEC 2011</a> <br>
+<a href="femtec-2011/">FEMTEC 2011</a> <br>
 3rd International Conference on Finite Element Methods 
 in Engineering and Science<br>
 May 9 - 13, 2011, South Lake Tahoe, USA<br>
@@ -73,7 +73,7 @@ Abstract deadline: March 6, 2010<br>
 Proceedings: hardcopy with ISBN
 </li>
 <li>
-<a href="http://hpfem.org/events/esco-2010/">ESCO 2010</a>,
+<a href="esco-2010/">ESCO 2010</a>,
 June 28 - July 2, 2010, Pilsen, Czech Republic<br>
 Abstract deadline: January 15, 2010<br>
 Proceedings: CiCP, MATCOM (both with impact factor)
