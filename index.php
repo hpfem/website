@@ -193,7 +193,7 @@
   </center>
   <p>
   <a href="http://www.nclab.com" target="blank">NCLab</a> is a third-party product that is not developed by our group at UNR.
-
+<!--
   <h3>The Dark Side of FEM</h3>
 
   <p>
@@ -201,7 +201,7 @@
   working, maybe it's art. Visit our art gallery 
   <a href="gallery_darkside">Dark Side of FEM</a> :)
   </p>
-
+-->
 </div>
 
 <?php require_once('right-latest.php');?>

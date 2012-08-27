@@ -151,8 +151,7 @@ analysis.
 <li>
 <b>June 2009:</b><br>
 Major DoE grant for advanced multiphysics computer
-simulations of nuclear reactor processes - Nevada News press 
-release <a href="http://www.unr.edu/nevadanews/templates/details.aspx?articleid=5074&amp;zoneid=8">here</a>.
+simulations of nuclear reactor processes in Nevada News.
 </li>
 </ul>
 </div>
