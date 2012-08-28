@@ -1,6 +1,22 @@
 <?php require_once('../header.php');?>
 <div class="center">
 <p>
+<h1>Conferences of Interest in 2013</h1>
+<ul>
+<li>
+SIAM calendar can be found <a href="http://www.siam.org/meetings/calendar.php">here</a>.
+</li>
+<li>
+<a href="istet.zcu.cz/" target="blank">ISTET</a> <br>
+International Symposium on Theoretical Electrical Engineering<br>
+Pilsen, Czech Republic, June 24-26, 2013<br>
+Deadline for 2-page Abstracts: 15th February 2013
+</li>
+<li><a href="">AMTEE/CPEE</a></li>
+</ul>
+
+
+<p>
 <h1>Conferences of Interest in 2012</h1>
 <ul>
 <li>

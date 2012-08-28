@@ -1,131 +1,209 @@
 <?php require_once('../header.php');?>
 
 <div class="center">
+<div id="collaborators">
 <h2>Collaborators and former team members</h2>
-<p>
+<div class="collaborator">
   <a href="http://ntc.zcu.cz/en/staff/cimrman_r.html">
     <img src="photos/cimrman.jpg" width=100px height=100px title="Robert Cimrman (New Technologies Research Centre, Pilsen, Czech Republic)">
+	<br />Robert Cimrman (New Technologies Research Centre, Pilsen, Czech Republic)
   </a>
+</div>
+<div class="collaborator">
   <a href="http://www.cse.unr.edu/~dascalus/">
     <img src="photos/sergiu.jpg" width=100px height=100px title="Sergiu Dascalu, CSE Department, UNR">
+	<br />Sergiu Dascalu, CSE Department, UNR
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://www.it.cas.cz/dolezel">
     <img src="photos/dolezel.jpg" width=100px height=100px title="Ivo Dolezel (Electrical Engineering, Czech Technical University)">
+	<br />Ivo Dolezel (Electrical Engineering, Czech Technical University)
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://hpfem.math.unr.edu/~ghansen/">
     <img src="photos/glen_hansen.jpg" width=100px height=100px title="Glen Hansen (Multiphysics Methods Group, Idaho National Lab)">
+	<br />Glen Hansen (Multiphysics Methods Group, Idaho National Lab)
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://mech.fsv.cvut.cz/web/people.php?id=23">
     <img src="photos/kruis.jpg" width=100px height=100px title="Jaroslav Kruis (Civil Engineering, Czech Technical University)">
-  </a><br>
+	<br />Jaroslav Kruis (Civil Engineering, Czech Technical University)
+  </a>
+  </div>
+<div class="collaborator">
   <a href="http://www.mathematik.uni-dortmund.de/~kuzmin/">
     <img src="photos/kuzmin.jpg" width=100px height=100px title="Dmitri Kuzmin (Fluid Dynamics, Dortmund University of Technology, Germany)">
+	<br />Dmitri Kuzmin (Fluid Dynamics, University Erlangen-Nuremberg, Germany)
   </a>
-    
+    </div>
+	<div style="clear:both"></div>
+<div class="collaborator">
   <img src="photos/nikola.jpg" width=100px height=100px title="Nikola Mirkov (Institute of Nuclear Sciences, Belgrade, Serbia)">
-  
+  <br />Nikola Mirkov (Institute of Nuclear Sciences, Belgrade, Serbia)
+  </div>
+<div class="collaborator">
   <a href="http://nuclear.tamu.edu/people/faculty/ragusa/">
     <img src="photos/ragusa3.jpg" width=100px height=100px title="Jean Ragusa (Nuclear Engineering, Texas A&M University)">
+	<br />Jean Ragusa (Nuclear Engineering, Texas A&M University)
   </a>
+  </div>
+<div class="collaborator">
   <a href="">
     <img src="photos/mateusz.jpg" width=100px height=100px title="Mateusz Paprocki">
+	<br />Mateusz Paprocki
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://www.aayushpoudel.info">
     <img src="photos/aayush.jpg" width=100px height=100px title="Aayush Poudel">
-  </a><br>
+	<br />Aayush Poudel
+  </a>
+  </div>
+<div class="collaborator">
   <a href="http://ondrej.certik.cz/">
     <img src="photos/ondrej_certik.jpg" width=100px height=100px title="Ondrej Certik">
+	<br />Ondrej Certik
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://sameer.regmi.net">
     <img src="photos/sameer.jpg" width=100px height=100px title="Sameer Regmi">
+	<br />Sameer Regmi
   </a>
+  </div>
+  <div style="clear:both"></div>
   
+<div class="collaborator">
   <a href="#">
     <img src="photos/ivo_hanak.jpg" width=100px height=100px title="Ivo Hanak">
+	<br />Ivo Hanak
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://pda.jasnapaka.com/">
     <img src="photos/david_andrs.jpg" width=100px height=100px title="David Andrs">
+	<br />David Andrs
   </a>
+  </div>
+<div class="collaborator">
   <a href="#">
     <img src="photos/jose_avila.jpg" width=100px height=100px title="Jose Avila">
+	<br />Jose Avila
   </a>
-  <br>
+  </div>
+<div class="collaborator">
   <a href="#">
     <img src="photos/francisco_avila.jpg" width=100px height=100px title="Francisco Avila">
+	<br />Francisco Avila
   </a>
+  </div>
+<div class="collaborator">
   <a href="#">
     <img src="photos/svatava_vyvialova.jpg" width=100px height=100px title="Svatava Vyvialova">
+	<br />Svatava Vyvialova
   </a>
+  </div>
+<div class="collaborator">
   <a href="#">
     <img src="photos/martin_zitka.jpg" width=100px height=100px title="Martin Zitka">
+	<br />Martin Zitka
   </a>
+  </div>
+  <div style="clear:both"></div>
+<div class="collaborator">
   <a href="http://marian.fsik.cvut.cz/~svacek/">
     <img src="photos/petr_svacek.jpg" width=100px height=100px title="Petr Svacek">
+	<br />Petr Svacek
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://www.math.cas.cz/~vejchod/">
     <img src="photos/tomas_vejchodsky.jpg" width=100px height=100px title="Tomas Vejchodsky">
-  </a><br>
+	<br />Tomas Vejchodsky
+  </a>
+  </div>
+<div class="collaborator">
   <a href="http://www.linkedin.com/pub/9/b61/808">
     <img src="photos/miro_simko.jpg" width=100px height=100px title="Miroslav Simko">
+	<br />Miroslav Simko
+	</a>
+	</div>
+<div class="collaborator">
   <a href="#">
     <img src="photos/martin_lazar.jpg" width=100px height=100px title="Martin Lazar">
+	<br />Martin Lazar
   </a>
+  </div>
+<div class="collaborator">
   <a href="http://home.zcu.cz/~jcerveny/">
     <img src="photos/jakub_cerveny.jpg" width=100px height=100px title="Jakub Cerveny">
+	<br />Jakub Cerveny
   </a>
-</p>
-
+  </div>
+</div>
+<div style="clear:both"></div>
 <h1>Posters (recent)</h1>
 
-<p>
-<div class="centered">
+
+<div class="poster">
 <a href="../publications/images/agros_2010.pdf"><img src="../publications/images/agros_2010.png" width=440></a>
+<br />Agros2D - 2010
 </div>
-</p>
 
-<p>
-<div class="centered">
+
+
+<div class="poster">
 <a href="../publications/images/multiphysics_2010.pdf"><img src="../publications/images/multiphysics_2010.png" width=440></a>
+<br />Multiphysics - 2010
 </div>
-</p>
 
-<p>
-<div class="centered">
+
+
+<div class="poster">
 <a href="../publications/images/himg_2010.pdf"><img src="../publications/images/himg_2010.png" width=440></a>
+<br />hp-FEM data compression - 2010
 </div>
-</p>
+<div style="clear:both"></div>
 
 <h1>Posters (older)</h1>
 
-<p>
-<div class="centered">
+
+<div class="posterO">
 <a href="../publications/images/multiphysics_2008.pdf"><img src="../publications/images/multiphysics_2008.gif" width=440 height=620></a>
+<br />Multiphysics - 2008
 </div>
-</p>
 
-<p>
-<div class="centered">
+
+
+<div class="posterO">
 <a href="../publications/images/poster_3d.pdf"><img src="../publications/images/poster_3d.gif" width=440 height=620></a>
+<br />Hermes3D - 2008
 </div>
-</p>
 
-<p>
-<div class="centered">
-<a href="../publications/images/himg_2008.pdf"<img src="../publications/images/himg_2008.gif" width=440 height=620></a>
+
+
+<div class="posterO">
+<a href="../publications/images/himg_2008.pdf"><img src="../publications/images/himg_2008.gif" width=440 height=620></a>
+<br />hp-FEM data compression - 2008
 </div>
-</p>
 
-<p>
-<div class="centered">
+
+
+<div class="posterO">
 <a href="../publications/images/tethers_2006.pdf"><img src="../publications/images/tethers_2006.gif" width=440 height=620></a>
+<br />Elmag space tethers - 2006
 </div>
-</p>
 
-<p>
-<div class="centered">
+
+
+<div class="posterO">
 <a href="../publications/images/hermes_old.pdf"><img src="../publications/images/hermes_old.gif" width=440 height=620></a>
+<br />Hermes introduction - 2006
 </div>
-<p>
+<div style="clear:both"></div>
 
 
 <h1>Adaptive hp-FEM on Dynamical Meshes: <br>
@@ -139,7 +217,7 @@
 	top. The following two movies show the evolution of the density (left) and the 
 	time-dependent mesh (right).
 
-	<p>
+	
 
 	<a href="../movies/shock/compress_sol_0.05.avi"><img src="../movies/shock/compress_density.jpg" width=350px></a>
 	<a href="../movies/shock/compress_mesh_0.05.avi"><img src="../movies/shock/compress_mesh.jpg" width=350px></a><br>
@@ -151,7 +229,7 @@
 	a Gaussian distribution, the following two videos show the solution 
 	magnitude (left) and time-dependent hp-mesh (right).
 
-	<p>
+	
 
 	<a href="../movies/gross-pitaevski/mag.avi"><img src="../movies/gross-pitaevski/mag.jpg" width=275px></a>
 	<a href="../movies/gross-pitaevski/mesh.avi"><img src="../movies/gross-pitaevski/mesh.jpg" width=300px></a><br>
@@ -164,7 +242,7 @@
 	distinguished by the sign of the level set function. The following videos illustrate a sloshing process where
 	initially, the domain is divided vertically into two equal parts, with water on the left side and (lighter) glycol on the right. After the imaginary barrier between the two liquids is removed, the different densities of the fluids initiate motion. The following videos show the evolution of the velocity (left) and level-set function (right),
 
-	<p>
+	
 
 	<a href="../movies/itracking/level-set.avi"><img src="../movies/itracking/lset4.png" width=300px></a>
 	<a href="../movies/itracking/velocity.avi"><img src="../movies/itracking/vel4.jpg" width=300px></a><br>
@@ -184,7 +262,7 @@
 	reaches 1 year later. The following video shows the evolution of the temperature (left)
 	and moisture (right). 
 
-	<p>
+	
 
 	<a href="../movies/heat_and_moisture/hm-sln.avi"><img src="../movies/heat_and_moisture/shot0003.png" width=400px></a><br>
 
@@ -200,7 +278,7 @@
 	is defined by the Arrhenius law. The following video shows the 
 	reaction rate (top) and the corresponding hp-mesh. 
 
-	<p>
+	
 
 	<a href="../movies/combust/combust.avi"><img src="../movies/combust/shot0010_small.jpg" style="width: 100%; max-width: 480px" /></a><br>
 	A similar video for h-adaptivity with first-order elements is shown <a href="../movies/combust/combust_h.avi">here</a>.
@@ -216,7 +294,7 @@
 	Both meshes evolve dynamically in time. The following video shows the velocity 
 	magnitude (top) and temperature (bottom). 
 
-	<p>
+	
 
 	<a href="../movies/ns-thermal/ns_solution.avi"><img src="../movies/ns-thermal/shot0006_small.jpg" style="width: 100%; max-width: 370px" /></a><br>
 	Corresponding meshes for the velocity and temperature fields are 
@@ -238,7 +316,7 @@
 	video shows the electric field magnitude and temperature, along with 
 	the corresponding meshes. 
 
-	<p>
+	
 
 	<a href="../movies/microwave/micro_circle1.avi"><img src="../movies/microwave/micro_circle.jpg" style="width: 100%; max-width: 480px"/></a>.
 
@@ -250,7 +328,7 @@
 	The rising temperature causes elastic deformations. This problem 
 	is linear, time-dependent, coupled one-way.
 
-	<p>
+	
 
 	<img src="../movies/thermoel/thermoelast_small.jpg" style="width: 100%; max-width: 450px"/>
 	<br>
@@ -266,7 +344,7 @@
 	error both in space and time. Note that the finite element meshes 
 	evolve both in space and time.
 
-	<p>
+	
 
 	<img src="../movies/ns/cube20k-180-nomeshB.png" style="width: 100%; max-width: 360px" /><br>
 
@@ -294,7 +372,7 @@
 	mesh consisting of only 4 cubic elements. The videos 
 	show first 32 steps of the adaptive process.
 
-	<p>
+	
 
 	<img src="../movies/waveguide/waveguide_sol_small.jpg" style="width: 100%; max-width: 420px" /><br>
 
@@ -308,7 +386,7 @@
 	automatic hp-adaptivity. The example is related to 
 	singular electric field in a domain with re-entrant corner.
 
-	<p>
+	
 
 	<img src="../movies/hpadapt/hpadapt1_small.jpg" style="width: 100%; max-width: 420px" /><br>
 
@@ -317,7 +395,7 @@
 </div>
 
 <div class="right">
-	<p>
+	
 	<h3>Gallery of our work</h3>
 	<br />
 	<a href="http://hpfem.org/agros2d">
@@ -325,7 +403,7 @@
 		Screenshot of Agros2D
 	
 
-	<p>
+	
 	
 	<a href="http://hpfem.org/hermes/doc/src/hermes2d/examples.html#saphir-neutronics">
 	<img src="images/saphir-small.png"></a><br>
@@ -350,7 +428,7 @@
 	Heat and moisture transfer in the concrete
 	walls of a nuclear power station
 	
-	</p>
+	
 
 	<br>
 	

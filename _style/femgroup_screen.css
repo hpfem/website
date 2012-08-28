@@ -99,8 +99,6 @@ dd {
 
 .superHeader {
   color: rgb(130,128,154);
-/*  background-color: rgb(20,40,70);*/
-  background: url('../gallery/images/headerBg.png') no-repeat transparent;
   height:29px;
   text-align: right;
   margin: 0;
@@ -124,8 +122,6 @@ dd {
 
 .midHeader {
   color: white;
-/*  background-color: rgb(61,92,122);*/
-  background: url('../gallery/images/headerGrad.png') repeat-x #4b4b4b;
   margin: 0;
   padding: 6px 8px;
   height: 105px;
@@ -713,6 +709,9 @@ div.left2 {
   padding:10px;
   clear:both;
   height:100px;
+  border-radius:15px;
+  box-shadow:3px 3px 3px black;
+  border:5px solid #1553ef;
 }
 
 .descLong
@@ -730,4 +729,57 @@ div.left2 {
 {
   display:block;
   z-index:10;
+}
+
+.collaborator
+{
+	width:100px;
+	float:left;
+	margin:5px; 
+}
+
+.poster, .posterO
+{
+	float:left;
+}
+
+.poster img
+{
+	width:250px;
+}
+
+.posterO img
+{
+	width:140px;
+	height:240px;
+}
+
+.posterO
+{
+  margin:6px;
+  width:139px;
+}
+
+.agros img, .hermes img
+{
+  float:left;
+  border:1px solid black;
+}
+
+.hermes img:hover, .agrosPoster:hover
+{
+  border:1px solid #1553ef;
+  box-shadow:1px 1px 1px black;
+}
+
+.hermes img
+{
+  width:170px;
+  height:170px;
+  margin:7px;
+}
+
+.agros img
+{
+  margin:8px;
 }

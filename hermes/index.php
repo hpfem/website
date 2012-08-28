@@ -5,6 +5,22 @@
 	Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel  
 	hp-adaptivity algorithms help solve a large variety of problems ranging from ODE and stationary 
 	linear PDE to complex time-dependent nonlinear multiphysics PDE systems.
+  <div class="hermes">
+    <h2>Here are some screenshots and a poster illustrating capabilities of Hermes2D</h2>
+    <a target="blank"  href="../gallery/images/hermes2d-show/both_errors.png"><img src="../gallery/images/hermes2d-show/both_errors.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/cand_list_quads.png"><img src="../gallery/images/hermes2d-show/cand_list_quads.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/elast.png"><img src="../gallery/images/hermes2d-show/elast.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/dynam-1-mesh.png"><img src="../gallery/images/hermes2d-show/dynam-1-mesh.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/micro.png"><img src="../gallery/images/hermes2d-show/micro.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/g7.png"><img src="../gallery/images/hermes2d-show/g7.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/sodium-F-1.png"><img src="../gallery/images/hermes2d-show/sodium-F-1.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/step-conv400.png"><img src="../gallery/images/hermes2d-show/step-conv400.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/solinfig9.png"><img src="../gallery/images/hermes2d-show/solinfig9.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/neutro_3.png"><img src="../gallery/images/hermes2d-show/neutro_3.png"/></a>
+    <a target="blank"  href="../gallery/images/hermes2d-show/mesh_irreg2.png"><img src="../gallery/images/hermes2d-show/mesh_irreg2.png"/></a>
+    <div style="clear:both"></div>
+  </div>
+    
 <br />	
 	<h3>HIghlights of Hermes capabilities</h3>
 	<h4>- mathematical point of view</h4>

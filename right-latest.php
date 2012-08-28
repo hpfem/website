@@ -2,6 +2,13 @@
 <h3>Latest News</h3>
 <ul>
 <li>
+<b>2013</b>: In 2013, we prepare two international conferences:
+<ul>
+	<li>AMTEE/CPEE</li>
+	<li><a href="istet.zcu.cz/" target="blank">ISTET</a></li>
+</ul>	
+</li>
+<li>
 <b>August 2012</b>: Presentation of hp-DG, Butcher's tables &amp; adaptive time stepping at <a href="https://workshop.math.fau.de/MoselSeminar">Moselle seminar</a>.
 </li>
 <li>
