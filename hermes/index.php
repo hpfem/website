@@ -108,7 +108,7 @@
 	<ul>
 		<li>branch <span style="font-style:italic;">master</span>: current OpenMP release version</br>
 		<li>branch <span style="font-style:italic;">devel</span>: up-to-date OpenMP development version</br>
-		<li>branch <span style="font-style:italic;">serial (outdated)</span>: outdated serial version</br>
+		<li>branch <span style="font-style:italic;">serial-outdated</span>: outdated serial version</br>
 	</ul>
 	</li>
 	<li><a href="https://github.com/hpfem/hermes-tutorial">Hermes tutorial repository</a>
