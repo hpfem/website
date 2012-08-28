@@ -7,19 +7,20 @@
 	linear PDE to complex time-dependent nonlinear multiphysics PDE systems.
   <div class="hermes">
     <h2>Here are some screenshots and a poster illustrating capabilities of Hermes2D</h2>
-    <a target="blank"  href="../gallery/images/hermes2d-show/both_errors.png"><img src="../gallery/images/hermes2d-show/both_errors.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/cand_list_quads.png"><img src="../gallery/images/hermes2d-show/cand_list_quads.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/elast.png"><img src="../gallery/images/hermes2d-show/elast.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/dynam-1-mesh.png"><img src="../gallery/images/hermes2d-show/dynam-1-mesh.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/micro.png"><img src="../gallery/images/hermes2d-show/micro.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/g7.png"><img src="../gallery/images/hermes2d-show/g7.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/sodium-F-1.png"><img src="../gallery/images/hermes2d-show/sodium-F-1.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/step-conv400.png"><img src="../gallery/images/hermes2d-show/step-conv400.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/solinfig9.png"><img src="../gallery/images/hermes2d-show/solinfig9.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/neutro_3.png"><img src="../gallery/images/hermes2d-show/neutro_3.png"/></a>
-    <a target="blank"  href="../gallery/images/hermes2d-show/mesh_irreg2.png"><img src="../gallery/images/hermes2d-show/mesh_irreg2.png"/></a>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/both_errors.png"><img src="../gallery/images/hermes2d-show/both_errors.png"/><br />Error calculation in space and time</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/cand_list_quads.png"><img src="../gallery/images/hermes2d-show/cand_list_quads.png"/><br />Hp-refinement candidates</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/elast.png"><img src="../gallery/images/hermes2d-show/elast.png"/><br />Curved edges</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/dynam-1-mesh.png"><img src="../gallery/images/hermes2d-show/dynam-1-mesh.png"/><br />Dynamical meshes</a></div>
     <div style="clear:both"></div>
-  </div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/micro.png"><img src="../gallery/images/hermes2d-show/micro.png"/><br />Microwave heating</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/g7.png"><img src="../gallery/images/hermes2d-show/g7.png"/><br />Various shapeset functions</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/sodium-F-1.png"><img src="../gallery/images/hermes2d-show/sodium-F-1.png"/><br />Time-multiscale problems</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/step-conv400.png"><img src="../gallery/images/hermes2d-show/step-conv400.png"/><br />Convergence graphs</a></div>
+    <div style="clear:both"></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/solinfig9.png"><img src="../gallery/images/hermes2d-show/solinfig9.png"/><br />Irregular meshes</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/neutro_3.png"><img src="../gallery/images/hermes2d-show/neutro_3.png"/><br />Neutronics</a></div>
+    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/mesh_irreg2.png"><img src="../gallery/images/hermes2d-show/mesh_irreg2.png"/><br />Anisotropical hp-refinements</a></div></div>
+    <div style="clear:both"></div>
     
 <br />	
 	<h3>HIghlights of Hermes capabilities</h3>

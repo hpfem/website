@@ -760,13 +760,25 @@ div.left2 {
   width:139px;
 }
 
-.agros img, .hermes img
+.hermes img
 {
   float:left;
   border:1px solid black;
 }
 
-.hermes img:hover, .agrosPoster:hover
+.agros img
+{
+  border:1px solid black;
+}
+
+.agrosScreenshot
+{
+  width:186px;
+  text-align:center;
+  float:left;
+}
+
+.hermes img:hover, .agrosPoster:hover, .agros img:hover
 {
   border:1px solid #1553ef;
   box-shadow:1px 1px 1px black;
