@@ -104,39 +104,39 @@
 	<h3 style="text-align:center;">Hermes 2D<br />hpFEM &amp; hpDG library</h3>
 	<h4>C++ sources</h4>
 	<ul>
-	<li><a href="https://github.com/hpfem/hermes">Hermes library repository</a>
+	<li><a href="https://github.com/hpfem/hermes" target="blank">Hermes library repository</a>
 	<ul>
 		<li>branch <span style="font-style:italic;">master</span>: current OpenMP release version</br>
 		<li>branch <span style="font-style:italic;">devel</span>: up-to-date OpenMP development version</br>
 		<li>branch <span style="font-style:italic;">serial-outdated</span>: outdated serial version</br>
 	</ul>
 	</li>
-	<li><a href="https://github.com/hpfem/hermes-tutorial">Hermes tutorial repository</a>
+	<li><a href="https://github.com/hpfem/hermes-tutorial" target="blank">Hermes tutorial repository</a>
 	<br /><br />- branches organization follows library repository
 	</li>
-	<li><a href="https://github.com/hpfem/hermes-examples">Hermes examples repository</a>
+	<li><a href="https://github.com/hpfem/hermes-examples" target="blank">Hermes examples repository</a>
 	<br /><br />- branches organization follows library repository
 	</li>
 	</ul>
 	<h4>Sphinx documentation<h4>
 	<ul>
-	<li><a href="hermes/doc/_build/html/index.html">Hermes 2D library</a></li>
-	<li><a href="hermes-tutorial/doc/_build/html/index.html">Hermes - tutorial repository (OpenMP version)</a></li>
-	<li><a href="hermes-examples/doc/_build/html/index.html">Hermes - examples repository (OpenMP version)</a></li>
+	<li><a href="hermes/doc/_build/html/index.html" target="blank">Hermes 2D library</a></li>
+	<li><a href="hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes - tutorial repository (OpenMP version)</a></li>
+	<li><a href="hermes-examples/doc/_build/html/index.html" target="blank">Hermes - examples repository (OpenMP version)</a></li>
 	<hr>
-	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/doc/_build/html/index.html">Hermes 2D serial library (outdated)</a></li>
-	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes-tutorial/doc/_build/html/index.html">Hermes - tutorial repository (outdated serial version)</a></li>
-	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes-examples/doc/_build/html/index.html">Hermes - examples repository (outdated serial version)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/serial-outdated/hermes/doc/_build/html/index.html" target="blank">Hermes 2D serial library (outdated)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/serial-outdated/hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes - tutorial repository (outdated serial version)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/serial-outdated/hermes-examples/doc/_build/html/index.html" target="blank">Hermes - examples repository (outdated serial version)</a></li>
 	</ul>
 	<h4>Doxygen developer docs</h4>
 	<ul>
-	<li><a href="hermes/hermes_common/doc/html/index.html">Hermes 2D OpenMP - Common code</a></li>
-	<li><a href="hermes/hermes2d/doc/html/index.html">Hermes 2D OpenMP - 2D specific code</a></li>
+	<li><a href="hermes/hermes_common/doc/html/index.html" target="blank">Hermes 2D OpenMP - Common code</a></li>
+	<li><a href="hermes/hermes2d/doc/html/index.html" target="blank">Hermes 2D OpenMP - 2D specific code</a></li>
 	</ul>
 	
 	<h3>Legacy code - Hermes 3D</h3>
-	<h4><a href="https://github.com/hpfem/hermes-legacy" style="color:black;margin-left:15px;">Git Repository</a></h4>
-		<h4><a href="../../www2-old/hermes-legacy/doc/_build/html/index.html" style="color:black;margin-left:15px;">User Documentation</a></h4>
+	<h4><a href="https://github.com/hpfem/hermes-legacy" target="blank" style="color:black;margin-left:15px;">Git Repository</a></h4>
+		<h4><a href="../../www2-old/hermes-legacy/doc/_build/html/index.html" target="blank" style="color:black;margin-left:15px;">User Documentation</a></h4>
 	
 	
 </div>
