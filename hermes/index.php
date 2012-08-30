@@ -135,8 +135,9 @@
 	</ul>
 	
 	<h3>Legacy code - Hermes 3D</h3>
+        This is an old code, containing also the 3D code. The development of this code was stop and is here only for completeness.
 	<h4><a href="https://github.com/hpfem/hermes-legacy" target="blank" style="color:black;margin-left:15px;">Git Repository</a></h4>
-		<h4><a href="../../www2-old/hermes-legacy/doc/_build/html/index.html" target="blank" style="color:black;margin-left:15px;">User Documentation</a></h4>
+		<h4><a href="hermes-legacy/doc/_build/html/index.html" target="blank" style="color:black;margin-left:15px;">User Documentation</a></h4>
 	
 	
 </div>
