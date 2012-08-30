@@ -124,9 +124,9 @@
 	<li><a href="hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes - tutorial repository (OpenMP version)</a></li>
 	<li><a href="hermes-examples/doc/_build/html/index.html" target="blank">Hermes - examples repository (OpenMP version)</a></li>
 	<hr>
-	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/serial-outdated/hermes/doc/_build/html/index.html" target="blank">Hermes 2D serial library (outdated)</a></li>
-	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/serial-outdated/hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes - tutorial repository (outdated serial version)</a></li>
-	<li style="position:relative;left:10px;font-size:0.85em;"><a href="../../www2-old/hermes/serial-outdated/hermes-examples/doc/_build/html/index.html" target="blank">Hermes - examples repository (outdated serial version)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="serial-outdated/hermes/doc/_build/html/index.html" target="blank">Hermes 2D serial library (outdated)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="serial-outdated/hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes - tutorial repository (outdated serial version)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="serial-outdated/hermes-examples/doc/_build/html/index.html" target="blank">Hermes - examples repository (outdated serial version)</a></li>
 	</ul>
 	<h4>Doxygen developer docs</h4>
 	<ul>
