@@ -648,7 +648,7 @@ div.left2 {
 #products
 {
   position:relative;
-  height:253px;
+  height:233px;
 }
 
 #productDesc
@@ -664,6 +664,10 @@ div.left2 {
     left:0;
     display:none;
     margin:3px;
+    margin:auto;
+    border:1px solid black;
+    
+  margin-left:13px;
 }
 
 #products IMG.active {
@@ -683,16 +687,18 @@ div.left2 {
   padding:0;
   float:left;
   overflow:hidden;
+  text-align:center;
+  vertical-align:middle;
 }
 
 #product2 img
 {
-  margin-left:255px;
+  margin-left:265px;
 }
 
 #product3 img
 {
-  margin-left:507px;
+  margin-left:516px;
 }
 
 .descTitle
