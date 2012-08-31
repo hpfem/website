@@ -710,8 +710,8 @@ div.left2 {
   clear:both;
   height:100px;
   border-radius:15px;
-  box-shadow:3px 3px 3px black;
-  border:5px solid #1553ef;
+  box-shadow:3px 3px 3px #333;
+  border:2px solid black;
 }
 
 .descLong
