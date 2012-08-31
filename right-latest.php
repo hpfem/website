@@ -5,7 +5,7 @@
 <b>2013</b>: In 2013, we prepare two international conferences:
 <ul>
 	<li>AMTEE/CPEE</li>
-	<li><a href="istet.zcu.cz/" target="blank">ISTET</a></li>
+	<li><a href="http://istet.zcu.cz/" target="blank">ISTET</a></li>
 </ul>	
 </li>
 <li>

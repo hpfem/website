@@ -143,6 +143,12 @@
 	<br />Jakub Cerveny
   </a>
   </div>
+  <div class="collaborator">
+  <a href="#">
+    <img src="photos/lenka_dubcova.jpeg" width=100px height=100px title="Lenka Dubcova">
+	<br />Lenka Dubcova
+  </a>
+  </div>
 </div>
 <div style="clear:both"></div>
 <h1>Posters (recent)</h1>
