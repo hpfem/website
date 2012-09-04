@@ -41,7 +41,7 @@
         
         <div class="headerITLogo doNotPrint"><img src="../_images/header.png" alt="Hermes Gallery" style="z-index:3;" title="Hermes Gallery" /></div>
         <div class="midHeaderBody">
-          <div class="headerTitle">hpFEM.org</div>
+          <div class="headerTitle"><a href="http://hpfem.org" style="color:white ! important">hpFEM.org</a></div>
           <div class="headerSubTitle Shadow1">University of Nevada, Reno</div>
           <div class="headerSubTitle Shadow2">University of West Bohemia, Pilsen</div>
           <div class="headerSubTitle Shadow3">Institute of Thermomechanics, Prague</div>
