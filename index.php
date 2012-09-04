@@ -12,7 +12,7 @@
   
   <h2>Products (hover the mouse over a product to see details underneath)</h2>
   <div id="products">
-    <div id="product1" class="product" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
+    <div id="product1" class="product" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive'); $('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
       <img width="230px" height="230px" src="gallery/images/hermes2d-show/both_errors.png" class="active"/>
       <img width="230px" height="230px" src="gallery/images/hermes2d-show/cand_list_quads.png"/>
       <img width="230px" height="230px" src="gallery/images/hermes2d-show/elast.png"/>
@@ -25,7 +25,7 @@
       <img width="230px" height="230px" src="gallery/images/hermes2d-show/neutro_3.png"/>
       <img width="230px" height="230px" src="gallery/images/hermes2d-show/mesh_irreg2.png"/>
     </div>
-    <div id="product2" class="product" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
+    <div id="product2" class="product" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');$('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
       <img height="230px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170.png" class="active"/>
       <img height="230px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png"/>
       <img height="230px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170.png"/>
@@ -37,7 +37,7 @@
       <img height="230px" src="gallery/images/agros2d-show/screenshot_macosx_order-170x170.png"/>
       <img height="230px" src="gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170.png"/>
     </div>
-    <div id="product3" class="product" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');});}">
+    <div id="product3" class="product" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
       <img width="230px" height="230px" src="gallery/images/hermes3d-show/bessel-sln.png" class="active"/>
       <img width="230px" height="230px" src="gallery/images/hermes3d-show/layer-mesh.png"/>
       <img width="230px" height="230px" src="gallery/images/hermes3d-show/layer-sln.png"/>
@@ -47,13 +47,13 @@
     </div>
   </div>
   <div id="productDesc">
-    <div id="descHermes" class="descTitle" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
+    <div id="descHermes" class="descTitle" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');$('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
       Hermes2D
     </div>
-    <div id="descAgros" class="descTitle" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');});}">
+    <div id="descAgros" class="descTitle" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');$('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
        	Agros2D
     </div>
-    <div id="descHermes3D" class="descTitle" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {$('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');});}">
+    <div id="descHermes3D" class="descTitle" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
       Hermes3D
     </div>
    
