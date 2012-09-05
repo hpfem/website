@@ -1,4 +1,4 @@
-y<div class="right">
+<div class="right">
 <h3>Latest News</h3>
 <ul>
 <li>

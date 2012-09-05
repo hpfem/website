@@ -10,7 +10,7 @@
   is freely available through several open source projects.
   </p>
   
-  <h2>Products (hover the mouse over a product to see details underneath)</h2>
+  <h2>Open Source FEM Software <span style="font-size:0.6em;font-weight:normal;position:relative;bottom:2px;">(hover the mouse over a project to see details underneath)</span></h2>
   <div id="products">
     <div id="product1" class="product" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive'); $('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
       <img width="230px" height="230px" src="gallery/images/hermes2d-show/both_errors.png" class="active"/>
@@ -68,8 +68,12 @@
       Agros2D is a multiplatform C++ application for the solution of partial differential equations (PDE) based on the Hermes library, developed by the group at the University of West Bohemia in Pilsen. Agros2D is distributed under the GNU General Public License.
     </div>
     <div id="descHermes3DLong" class="descLong">
-      <h3>Hermes3D - 3D FEM code</h3>
-      Our goal is to extend the advanced adaptivity and other capabilities of Hermes2D library into 3 dimensions. Our legacy 3D code (Hermes3D) lags behind Hermes2D in terms of capabilities of the code so far, but we want to change it.
+      <h3>Hermes3D - C++ library of adaptive hp-FEM methods for 3D problems</h3>
+      The aim of Hermes3D is to extend the capabilities of Hermes 2D to three spatial dimensions.
+      In particular, Hermes3D will offer automatic adaptive hp-FEM with arbitrary-level
+      hanging nodes, monolithic multimesh discretization of multiphysics coupled
+      problems, and adaptive hp-FEM with dynamically changing meshes for 3D
+      problems. The development had started and has been temporarily put on hold.
     </div>
   </div>
 
@@ -83,7 +87,7 @@
 
         $next.css({opacity: 0.0})
             .addClass('active')
-            .animate({opacity: 1.0}, 1100, function() {
+            .animate({opacity: 1.0}, 800, function() {
                 $active.removeClass('active last-active');
             });
     }
@@ -96,7 +100,7 @@
 
         $next.css({opacity: 0.0})
             .addClass('active')
-            .animate({opacity: 1.0}, 1300, function() {
+            .animate({opacity: 1.0}, 800, function() {
                 $active.removeClass('active last-active');
             });
     }
@@ -109,15 +113,15 @@
 
         $next.css({opacity: 0.0})
             .addClass('active')
-            .animate({opacity: 1.0}, 1500, function() {
+            .animate({opacity: 1.0}, 800, function() {
                 $active.removeClass('active last-active');
             });
     }
 
     $(function() {
-        setInterval( "slideSwitch1()", 2000 );
-        setInterval( "slideSwitch2()", 3000 );
-        setInterval( "slideSwitch3()", 4000 );
+        setInterval( "slideSwitch1()", 4500 );
+        setTimeout('setInterval( "slideSwitch2()", 4500 )', 1500);
+        setTimeout('setInterval( "slideSwitch3()", 4500 )', 3000);
     });
   </script>
   

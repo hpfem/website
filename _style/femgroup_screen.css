@@ -712,7 +712,7 @@ div.left2 {
 
 #descLong
 {
-  padding:10px;
+  padding:0 10px 10px;
   clear:both;
   height:100px;
   border-radius:15px;
