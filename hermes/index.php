@@ -1,10 +1,36 @@
 <?php require_once('../header.php');?>
 <div class="center">
-	<h1>Hermes 2D hp-FEM &amp; hp-DG library</h1>
+	<h1>Hermes2D hp-FEM &amp; hp-DG library</h1>
+  
+  <h2>Download from Github repository</h2>
+	<ul>
+	<li>Library repository: <a href="https://github.com/hpfem/hermes" target="blank">https://github.com/hpfem/hermes</a>
+	<ul>
+		<li>Tutorial repository: <a href="https://github.com/hpfem/hermes-tutorial" target="blank">https://github.com/hpfem/hermes-tutorial</a>
+		<li>Examples repository: <a href="https://github.com/hpfem/hermes-examples" target="blank">https://github.com/hpfem/hermes-examples</a>
+	</ul>
+	</ul>
+  <div style="float:left;border-left:1px solid black;padding-left:30px;">
+    <h4>Sphinx user documentation<h4>
+    <ul>
+    <li><a href="hermes/doc/_build/html/index.html" target="blank">Hermes2D - library</a></li>
+    <li><a href="hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes2D - tutorial</a></li>
+    <li><a href="hermes-examples/doc/_build/html/index.html" target="blank">Hermes2D - examples</a></li>
+    </ul>
+  </div>
+  <div style="float:left;margin-left:50px;border-left:1px solid black; border-right:1px solid black; padding-right:30px;padding-left:50px;padding-bottom:20px;">
+	<h4>Doxygen developers documentation</h4>
+	<ul>
+	<li><a href="hermes/hermes_common/doc/html/index.html" target="blank">Hermes2D OpenMP - Common code</a></li>
+	<li><a href="hermes/hermes2d/doc/html/index.html" target="blank">Hermes2D OpenMP - 2D specific code</a></li>
+	</ul>
+  </div>
+  <div style="clear:both;height:20px;"></div>
 
-	Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel  
+	<span style="font-size:2em;font-weight:650;">Hermes2D</span> is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel  
 	hp-adaptivity algorithms help solve a large variety of problems ranging from ODE and stationary 
 	linear PDE to complex time-dependent nonlinear multiphysics PDE systems.
+  <br /><br />
   <div class="hermes">
     <h2>Here are some screenshots and a poster illustrating capabilities of Hermes2D</h2>
     <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/both_errors.png"><img src="../gallery/images/hermes2d-show/both_errors.png"/><br />Error calculation in space and time</a></div>
@@ -101,7 +127,7 @@
 	
 	
 	<div class="right rightSmall">
-	<h3 style="text-align:center;">Hermes 2D<br />hpFEM &amp; hpDG library</h3>
+	<h3 style="text-align:center;">Hermes2D<br />hpFEM &amp; hpDG library</h3>
 	<h4>C++ sources</h4>
 	<ul>
 	<li><a href="https://github.com/hpfem/hermes" target="blank">Hermes library repository</a>
@@ -120,18 +146,18 @@
 	</ul>
 	<h4>Sphinx documentation<h4>
 	<ul>
-	<li><a href="hermes/doc/_build/html/index.html" target="blank">Hermes 2D library</a></li>
+	<li><a href="hermes/doc/_build/html/index.html" target="blank">Hermes2D library</a></li>
 	<li><a href="hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes - tutorial repository (OpenMP version)</a></li>
 	<li><a href="hermes-examples/doc/_build/html/index.html" target="blank">Hermes - examples repository (OpenMP version)</a></li>
 	<hr>
-	<li style="position:relative;left:10px;font-size:0.85em;"><a href="serial-outdated/hermes/doc/_build/html/index.html" target="blank">Hermes 2D serial library (outdated)</a></li>
+	<li style="position:relative;left:10px;font-size:0.85em;"><a href="serial-outdated/hermes/doc/_build/html/index.html" target="blank">Hermes2D serial library (outdated)</a></li>
 	<li style="position:relative;left:10px;font-size:0.85em;"><a href="serial-outdated/hermes-tutorial/doc/_build/html/index.html" target="blank">Hermes - tutorial repository (outdated serial version)</a></li>
 	<li style="position:relative;left:10px;font-size:0.85em;"><a href="serial-outdated/hermes-examples/doc/_build/html/index.html" target="blank">Hermes - examples repository (outdated serial version)</a></li>
 	</ul>
 	<h4>Doxygen developer docs</h4>
 	<ul>
-	<li><a href="hermes/hermes_common/doc/html/index.html" target="blank">Hermes 2D OpenMP - Common code</a></li>
-	<li><a href="hermes/hermes2d/doc/html/index.html" target="blank">Hermes 2D OpenMP - 2D specific code</a></li>
+	<li><a href="hermes/hermes_common/doc/html/index.html" target="blank">Hermes2D OpenMP - Common code</a></li>
+	<li><a href="hermes/hermes2d/doc/html/index.html" target="blank">Hermes2D OpenMP - 2D specific code</a></li>
 	</ul>
 	
 	<h3>Legacy code - Hermes 3D</h3>
