@@ -69,7 +69,7 @@
     </div>
     <div id="descHermes3DLong" class="descLong">
       <h3>Hermes3D - C++ library of adaptive hp-FEM methods for 3D problems</h3>
-      The aim of Hermes3D is to extend the capabilities of Hermes 2D to three spatial dimensions.
+      The aim of Hermes3D is to extend the capabilities of Hermes2D to three spatial dimensions.
       In particular, Hermes3D will offer automatic adaptive hp-FEM with arbitrary-level
       hanging nodes, monolithic multimesh discretization of multiphysics coupled
       problems, and adaptive hp-FEM with dynamically changing meshes for 3D
