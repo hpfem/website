@@ -131,27 +131,32 @@
     <tr style="vertical-align:top;">
     <td>
     <a href="http://hpfem.org/~pavel/">
-      <img src="people/photos/pavel-hpfem.org.jpg" width=142px style="border:1px solid black" height=142px title="Pavel Solin (group leader, NCLab)">
+      <img src="people/photos/pavel-hpfem.org.jpg" width=118px style="border:1px solid black" height=118px title="Pavel Solin (group leader, NCLab)">
     </a>
     </td>
     <td>
     <a href="http://home.zcu.cz/~karban/main/">
-      <img src="people/photos/karban.jpg" width=142px style="border:1px solid black" height=142px title="Pavel Karban (Agros2D main developer)">
+      <img src="people/photos/karban.jpg" width=118px style="border:1px solid black" height=118px title="Pavel Karban (Agros2D main developer)">
     </a>
     </td>
     <td>
     <a href="#">
-      <img src="people/photos/lukas.jpg" width=142px style="border:1px solid black" height=142px title="Lukas Korous (Hermes main developer)">
+      <img src="people/photos/lukas.jpg" width=118px style="border:1px solid black" height=118px title="Lukas Korous (Hermes main developer)">
     </a>
     </td>
     <td>
     <a href="#">
-      <img src="people/photos/pavel_kus.jpg" width=142px style="border:1px solid black" height=142px title="Pavel Kus (Agros2D, Hermes3D)">
+      <img src="people/photos/pavel_kus.jpg" width=118px style="border:1px solid black" height=118px title="Pavel Kus (Agros2D, Hermes3D)">
     </a>
     </td>
     <td>
     <a href="http://home.zcu.cz/~fmach">
-      <img src="people/photos/franta_small.jpg" width=142px style="border:1px solid black" height=142px title="Franta Mach (Agros2D)">
+      <img src="people/photos/franta_small.jpg" width=118px style="border:1px solid black" height=118px title="Franta Mach (Agros2D)">
+    </a>
+    </td>
+    <td>
+    <a href="#">
+      <img src="people/photos/panek.jpg" width=118px style="border:1px solid black" height=118px title="David Pánek (Agros2D)">
     </a>
     </td>
     </tr>
@@ -161,6 +166,7 @@
 			<td><span style="font-weight:bold">Lukas Korous</span><br />(Hermes2D main developer)</td>
       <td><span style="font-weight:bold">Pavel Kus</span><br />(Agros2D, Hermes3D)</td>
       <td><span style="font-weight:bold">Franta Mach</span><br />(Agros2D, Hermes2D)</td>
+      <td><span style="font-weight:bold">David PÃ¡nek</span><br />(Agros2D, Hermes2D)</td>
     </tr>
   </table>
 

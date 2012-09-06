@@ -124,17 +124,16 @@ dd {
   color: white;
   margin: 0;
   padding: 6px 8px;
-  height: 105px;
-  min-height: 80px;
 }
 
 .midHeaderBody {
-  margin: 0px 130px;
   padding: 0px;
 }
 
 .headerTitle {
-  font-size: 36px;
+  font-size: 46px;
+  letter-spacing:5px;
+  margin-left:40px;
   font-weight: bold;
   padding: 0;
   text-shadow: 3px 3px 3px black;
@@ -146,6 +145,24 @@ dd {
   font-style: italic;
   padding: 0;
 }
+
+.headerSubTitle
+{
+  height:13px;
+  }
+
+.headerSubTitle img
+{
+  width:25px;
+}
+
+.headerSubTitle span
+{
+  position:relative;
+  bottom:8px;
+  left:20px;
+}
+
 
 .Shadow1
 {
@@ -571,7 +588,7 @@ div.right {
   overflow:auto;
   float:left;
   position:relative;
-  top:-30px;
+  top:5px;
   z-index:2;
 }
 
@@ -593,7 +610,6 @@ div.center {
   background-color: rgb(248, 248, 248); 
   border: 1px solid #999;
   position:relative;
-  top:-35px;
 }
 
 div.left {
@@ -605,7 +621,6 @@ div.left {
   background-color: rgb(248, 248, 248); 
   border: 1px solid #999;
   position:relative;
-  top:-35px;
 }
 
 div.left2 {

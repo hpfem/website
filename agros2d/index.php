@@ -22,10 +22,6 @@
     <div style="clear:both"></div>
 
     <br />
-    <h2>Agros2D poster</h2>
-    <a href="../publications/images/agros_2010.png">
-      <img src="../publications/images/agros_2010.png" width="250px" class="agrosPoster">
-    </a>
     <div style="clear:both"></div>
 		Agros2D has its own website <a href="http://www.agros2d.org" target="blank">here</a>
 		<div style="height:20px"></div>
