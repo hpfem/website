@@ -1,4 +1,10 @@
 <?php require_once('../header.php');?>
+
+<script type="text/javascript" src="../lightbox/js/prototype.js"></script>
+<script type="text/javascript" src="../lightbox/js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="../lightbox/js/lightbox.js"></script>
+<link rel="stylesheet" href="../lightbox/css/lightbox.css" type="text/css" media="screen" />
+
 <div class="center">
 	<h1>Hermes2D hp-FEM &amp; hp-DG library</h1>
   
@@ -33,19 +39,19 @@
   <br /><br />
   <div class="hermes">
     <h2>Here are some screenshots and a poster illustrating capabilities of Hermes2D</h2>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/both_errors.png"><img src="../gallery/images/hermes2d-show/both_errors.png"/><br />Error calculation in space and time</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/cand_list_quads.png"><img src="../gallery/images/hermes2d-show/cand_list_quads.png"/><br />Hp-refinement candidates</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/elast.png"><img src="../gallery/images/hermes2d-show/elast.png"/><br />Curved edges</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/dynam-1-mesh.png"><img src="../gallery/images/hermes2d-show/dynam-1-mesh.png"/><br />Dynamical meshes</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/both_errors.png"><img src="../gallery/images/hermes2d-show/both_errors.png"/><br />Space-time adaptivity</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/cand_list_quads.png"><img src="../gallery/images/hermes2d-show/cand_list_quads.png"/><br />Eight levels of automatic hp-adaptivity</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/elast.png"><img src="../gallery/images/hermes2d-show/elast.png"/><br />Curved elements</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/dynam-1-mesh.png"><img src="../gallery/images/hermes2d-show/dynam-1-mesh.png"/><br />Dynamical meshes</a></div>
     <div style="clear:both"></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/micro.png"><img src="../gallery/images/hermes2d-show/micro.png"/><br />Microwave heating</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/g7.png"><img src="../gallery/images/hermes2d-show/g7.png"/><br />Various shapeset functions</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/sodium-F-1.png"><img src="../gallery/images/hermes2d-show/sodium-F-1.png"/><br />Time-multiscale problems</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/step-conv400.png"><img src="../gallery/images/hermes2d-show/step-conv400.png"/><br />Convergence graphs</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/micro.png"><img src="../gallery/images/hermes2d-show/micro.png"/><br />Adaptive multimesh hp-FEM</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/g7.png"><img src="../gallery/images/hermes2d-show/g7.png"/><br />Higher-order shape functions</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/sodium-F-1.png"><img src="../gallery/images/hermes2d-show/sodium-F-1.png"/><br />Problems with multiple time scales</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/step-conv400.png"><img src="../gallery/images/hermes2d-show/step-conv400.png"/><br />Exponential convergence</a></div>
     <div style="clear:both"></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/solinfig9.png"><img src="../gallery/images/hermes2d-show/solinfig9.png"/><br />Irregular meshes</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/neutro_3.png"><img src="../gallery/images/hermes2d-show/neutro_3.png"/><br />Neutronics</a></div>
-    <div class="agrosScreenshot"><a target="blank"  href="../gallery/images/hermes2d-show/mesh_irreg2.png"><img src="../gallery/images/hermes2d-show/mesh_irreg2.png"/><br />Anisotropical hp-refinements</a></div></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/solinfig9.png"><img src="../gallery/images/hermes2d-show/solinfig9.png"/><br />Fully anisotropic hp-refinements</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox"  href="../gallery/images/hermes2d-show/neutro_3.png"><img src="../gallery/images/hermes2d-show/neutro_3.png"/><br />Interface tracking</a></div>
+    <div class="agrosScreenshot"><a  rel="lightbox" href="../gallery/images/hermes2d-show/mesh_irreg2.png"><img src="../gallery/images/hermes2d-show/mesh_irreg2.png"/><br />Arbitrary-level hanging nodes</a></div></div>
     <div style="clear:both"></div>
     
 <br />	

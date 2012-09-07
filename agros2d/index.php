@@ -1,4 +1,8 @@
 <?php require_once('../header.php');?>
+<script type="text/javascript" src="../lightbox/js/prototype.js"></script>
+<script type="text/javascript" src="../lightbox/js/scriptaculous.js?load=effects"></script>
+<script type="text/javascript" src="../lightbox/js/lightbox.js"></script>
+<link rel="stylesheet" href="../lightbox/css/lightbox.css" type="text/css" media="screen" />
 <div class="center">
 	<h1>Agros2d</h1>
 	<div class="agros">
@@ -9,16 +13,16 @@
     <br />
     <br />
     <h2>Here are some screenshots and a poster illustrating capabilities of Agros2D</h2>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png" /><br />Python lab</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_win7_levitation-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png"/><br />Magnetic levitation</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170.png"/><br />Problem properties</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170.png" /><br />Heat transfer</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png"/><br />Particle tracing</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170.png"/><br />PythonLab</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png"/><br />Precise charts</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170.png"/><br />Detail window</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/screenshot_macosx_order-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_macosx_order-170x170.png"/><br />Polynomial orders</a></div>
-    <div class="agrosScreenshot"><a target="blank" href="../gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170L.png"><img src="../gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170.png"/><br />Scalar field - 3D</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png" /><br />Python lab</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_win7_levitation-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png"/><br />Magnetic levitation</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170.png"/><br />Problem properties</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170.png" /><br />Heat transfer</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png"/><br />Particle tracing</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170.png"/><br />PythonLab</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png"/><br />Precise charts</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170.png"/><br />Detail window</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/screenshot_macosx_order-170x170L.png"><img src="../gallery/images/agros2d-show/screenshot_macosx_order-170x170.png"/><br />Polynomial orders</a></div>
+    <div class="agrosScreenshot"><a rel="lightbox" href="../gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170L.png"><img src="../gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170.png"/><br />Scalar field - 3D</a></div>
     <div style="clear:both"></div>
 
     <br />

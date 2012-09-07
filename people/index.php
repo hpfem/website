@@ -155,21 +155,21 @@
 
 
 <div class="poster">
-<a href="../publications/images/agros_2010.pdf"><img src="../publications/images/agros_2010.png" width=440></a>
+<a rel="lightbox"  href="../publications/images/agros_2010.pdf"><img src="../publications/images/agros_2010.png" width=440></a>
 <br />Agros2D - 2010
 </div>
 
 
 
 <div class="poster">
-<a href="../publications/images/multiphysics_2010.pdf"><img src="../publications/images/multiphysics_2010.png" width=440></a>
+<a rel="lightbox"  href="../publications/images/multiphysics_2010.pdf"><img src="../publications/images/multiphysics_2010.png" width=440></a>
 <br />Multiphysics - 2010
 </div>
 
 
 
 <div class="poster">
-<a href="../publications/images/himg_2010.pdf"><img src="../publications/images/himg_2010.png" width=440></a>
+<a rel="lightbox"  href="../publications/images/himg_2010.pdf"><img src="../publications/images/himg_2010.png" width=440></a>
 <br />hp-FEM data compression - 2010
 </div>
 <div style="clear:both"></div>
@@ -178,35 +178,35 @@
 
 
 <div class="posterO">
-<a href="../publications/images/multiphysics_2008.pdf"><img src="../publications/images/multiphysics_2008.gif" width=440 height=620></a>
+<a rel="lightbox"  href="../publications/images/multiphysics_2008.pdf"><img src="../publications/images/multiphysics_2008.gif" width=440 height=620></a>
 <br />Multiphysics - 2008
 </div>
 
 
 
 <div class="posterO">
-<a href="../publications/images/poster_3d.pdf"><img src="../publications/images/poster_3d.gif" width=440 height=620></a>
+<a rel="lightbox"  href="../publications/images/poster_3d.pdf"><img src="../publications/images/poster_3d.gif" width=440 height=620></a>
 <br />Hermes3D - 2008
 </div>
 
 
 
 <div class="posterO">
-<a href="../publications/images/himg_2008.pdf"><img src="../publications/images/himg_2008.gif" width=440 height=620></a>
+<a rel="lightbox"  href="../publications/images/himg_2008.pdf"><img src="../publications/images/himg_2008.gif" width=440 height=620></a>
 <br />hp-FEM data compression - 2008
 </div>
 
 
 
 <div class="posterO">
-<a href="../publications/images/tethers_2006.pdf"><img src="../publications/images/tethers_2006.gif" width=440 height=620></a>
+<a rel="lightbox"  href="../publications/images/tethers_2006.pdf"><img src="../publications/images/tethers_2006.gif" width=440 height=620></a>
 <br />Elmag space tethers - 2006
 </div>
 
 
 
 <div class="posterO">
-<a href="../publications/images/hermes_old.pdf"><img src="../publications/images/hermes_old.gif" width=440 height=620></a>
+<a rel="lightbox"  href="../publications/images/hermes_old.pdf"><img src="../publications/images/hermes_old.gif" width=440 height=620></a>
 <br />Hermes introduction - 2006
 </div>
 <div style="clear:both"></div>
