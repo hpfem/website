@@ -9,6 +9,11 @@
   <link rel="stylesheet alternative" type="text/css" href="../_style/femgroup_print.css" media="screen" title="Print Preview" />
   <link rel="stylesheet" type="text/css" href="../_style/femgroup_print.css" media="print" />
   <script src="../js/jquery.js" type="text/javascript"></script>
+  <script type="text/javascript" charset="utf-8" src="slider/mootools-1.2.1-core-yc.js"></script>
+  <script type="text/javascript" charset="utf-8" src="slider/mootools-1.2.2.2-more.js"></script>    
+  <script type="text/javascript" charset="utf-8" src="slider/Fx.MorphList.js"></script>
+  <script type="text/javascript" charset="utf-8" src="slider/BarackSlideshow.js"></script>    
+  <link rel="stylesheet" type="text/css" href="slider/style.css" media="screen" />
   
   <title>hpFEM.org group</title>
 

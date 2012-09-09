@@ -677,7 +677,6 @@ div.left2 {
     position:absolute;
     top:0;
     left:0;
-    display:none;
     margin:3px;
     margin:auto;
     border:1px solid black;
@@ -739,7 +738,6 @@ div.left2 {
 .descLong
 {
   margin:5px;
-  display:none;
   padding:5px;
   z-index:9;
   width:716px;

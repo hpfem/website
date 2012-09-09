@@ -140,11 +140,9 @@
 	is entering with two different Mach numbers and angles from the left and from the
 	top. The following two movies show the evolution of the density (left) and the 
 	time-dependent mesh (right).
-
-	
-
-	<a href="../movies/shock/compress_sol_0.05.avi"><img src="../movies/shock/compress_density.jpg" width=350px></a>
-	<a href="../movies/shock/compress_mesh_0.05.avi"><img src="../movies/shock/compress_mesh.jpg" width=350px></a><br>
+	<a href="../movies/shock/compress_sol_0.05.avi" style="float:left;"><img src="../movies/shock/compress_density.jpg" width=350px></a>
+	<a href="../movies/shock/compress_mesh_0.05.avi" style="float:left;"><img src="../movies/shock/compress_mesh.jpg" width=350px></a><br>
+  <div style="clear:both"></div>
 
 	<h3>Gross-Pitaevski equation of quantum chemistry</h3>
 
@@ -157,7 +155,7 @@
 
 	<a href="../movies/gross-pitaevski/mag.avi"><img src="../movies/gross-pitaevski/mag.jpg" width=275px></a>
 	<a href="../movies/gross-pitaevski/mesh.avi"><img src="../movies/gross-pitaevski/mesh.jpg" width=300px></a><br>
-
+<div style="clear:both"></div>
 	<h3>Two-component incompressible viscous flow</h3>
 
 	Navier-Stokes equations for two-component flow consist of the usual Navier-Stokes
@@ -170,7 +168,7 @@
 
 	<a href="../movies/itracking/level-set.avi"><img src="../movies/itracking/lset4.png" width=300px></a>
 	<a href="../movies/itracking/velocity.avi"><img src="../movies/itracking/vel4.jpg" width=300px></a><br>
-
+<div style="clear:both"></div>
 	The time-dependent meshes are shown 
 	<a href="../movies/itracking/iface-meshes.avi">here</a>.<br>
 
@@ -186,9 +184,8 @@
 	reaches 1 year later. The following video shows the evolution of the temperature (left)
 	and moisture (right). 
 
-	
-
-	<a href="../movies/heat_and_moisture/hm-sln.avi"><img src="../movies/heat_and_moisture/shot0003.png" width=400px></a><br>
+  <a href="../movies/heat_and_moisture/hm-sln.avi"><img src="../movies/heat_and_moisture/shot0003.png" width=400px></a><br>
+<div style="clear:both"></div>
 
 	Evolution of the corresponding hp-meshes is shown <a href="../movies/heat_and_moisture/hm-mesh.avi">here</a>.
 
@@ -204,7 +201,8 @@
 
 	
 
-	<a href="../movies/combust/combust.avi"><img src="../movies/combust/shot0010_small.jpg" style="width: 100%; max-width: 480px" /></a><br>
+	<a href="../movies/combust/combust.avi"><img src="../movies/combust/shot0010_small.jpg" style="width: 100%; max-width: 480px" /></a>
+  <div style="clear:both"></div>
 	A similar video for h-adaptivity with first-order elements is shown <a href="../movies/combust/combust_h.avi">here</a>.
 
 	<h3>Navier-Stokes equations with heat transfer</h3>
@@ -220,7 +218,8 @@
 
 	
 
-	<a href="../movies/ns-thermal/ns_solution.avi"><img src="../movies/ns-thermal/shot0006_small.jpg" style="width: 100%; max-width: 370px" /></a><br>
+	<a href="../movies/ns-thermal/ns_solution.avi"><img src="../movies/ns-thermal/shot0006_small.jpg" style="width: 100%; max-width: 370px" /></a>
+  <div style="clear:both"></div>
 	Corresponding meshes for the velocity and temperature fields are 
 	<a href="../movies/ns-thermal/ns_meshes.avi">here</a>. You can also see the detail 
 	of the upper edge of the obstacle 
@@ -252,10 +251,10 @@
 	The rising temperature causes elastic deformations. This problem 
 	is linear, time-dependent, coupled one-way.
 
-	
+	<div style="clear:both"></div>
 
 	<img src="../movies/thermoel/thermoelast_small.jpg" style="width: 100%; max-width: 450px"/>
-	<br>
+	<div style="clear:both"></div>
 
 	<a href="../movies/thermoel/video.avi">Temperature / displacement evolution</a><br>
 

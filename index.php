@@ -10,120 +10,74 @@
   is freely available through several open source projects.
   </p>
   
-  <h2>Open Source FEM Software <span style="font-size:0.6em;font-weight:normal;position:relative;bottom:2px;">(hover the mouse over a project to see details underneath)</span></h2>
-  <div id="products">
-    <div id="product1" class="product" onclick="window.location.href='hermes'" onmouseover="this.style.cursor='pointer';if($('#descHermes2DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive'); $('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/both_errors.png" class="active"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/cand_list_quads.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/elast.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/dynam-1-mesh.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/micro.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/g7.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/sodium-F-1.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/step-conv400.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/solinfig9.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/neutro_3.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes2d-show/mesh_irreg2.png"/>
-    </div>
-    <div id="product2" class="product" onclick="window.location.href='agros2d'" onmouseover="this.style.cursor='pointer';if($('#descAgrosLong').css('display') != 'block') { $('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');$('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_heat-170x170.png" class="active"/>
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png"/>
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_pythonlab-170x170.png"/>
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png"/>
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png"/>
-			<img height="230px" src="gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png"/>
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_winxp_problem_properties-170x170.png"/>
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_macosx_heat_detail-170x170.png"/>
-      <img height="230px" src="gallery/images/agros2d-show/screenshot_macosx_order-170x170.png"/>
-      <img height="230px" src="gallery/images/agros2d-show/postprocessor_scalarview_3d-170x170.png"/>
-    </div>
-    <div id="product3" class="product" onclick="window.location.href='hermes'" onmouseover="this.style.cursor='pointer';if($('#descHermes3DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
-      <img width="230px" height="230px" src="gallery/images/hermes3d-show/bessel-sln.png" class="active"/>
-      <img width="230px" height="230px" src="gallery/images/hermes3d-show/layer-mesh.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes3d-show/layer-sln.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes3d-show/fichera-mesh.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes3d-show/fichera-sln.png"/>
-      <img width="230px" height="230px" src="gallery/images/hermes3d-show/shock-sln.png"/>
-    </div>
-  </div>
-  <div id="productDesc">
-    <div id="descHermes" class="descTitle" onmouseover="if($('#descHermes2DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');$('#descHermes2DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
-      Hermes2D
-    </div>
-    <div id="descAgros" class="descTitle" onmouseover="if($('#descAgrosLong').css('display') != 'block') { $('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').removeClass('descLongActive');$('#descAgrosLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
-       	Agros2D
-    </div>
-    <div id="descHermes3D" class="descTitle" onmouseover="if($('#descHermes3DLong').css('display') != 'block') { $('#descAgrosLong').removeClass('descLongActive');$('#descHermes2DLong').removeClass('descLongActive');$('#descHermes3DLong').css({opacity: 0.0}).addClass('descLongActive').animate({opacity: 1.0}, 1100, function() {});}">
-      Hermes3D
-    </div>
-   
-  </div> 
-  <div id="descLong">
-    <div id="descHermes2DLong" class="descLong descLongActive">
-      <h3>Hermes2D - advanced hp-FEM &amp; hp-DG C++ library</h3>
-      Hermes is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms are designed to solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear multiphysics PDE systems. The code is distributed under the GNU General Public License (Hermes2D and Hermes3D) and BSD License (Hermes1D).
-    </div>
-    <div id="descAgrosLong" class="descLong">
-      <h3>Agros2D - graphical PDE Engineering tool</h3>
-      Agros2D is a multiplatform C++ application for the solution of partial differential equations (PDE) based on the Hermes library, developed by the group at the University of West Bohemia in Pilsen. Agros2D is distributed under the GNU General Public License.
-    </div>
-    <div id="descHermes3DLong" class="descLong">
-      <h3>Hermes3D - C++ library of adaptive hp-FEM methods for 3D problems</h3>
-      The aim of Hermes3D is to extend the capabilities of Hermes2D to three spatial dimensions.
-      In particular, Hermes3D will offer automatic adaptive hp-FEM with arbitrary-level
-      hanging nodes, monolithic multimesh discretization of multiphysics coupled
-      problems, and adaptive hp-FEM with dynamically changing meshes for 3D
-      problems. The development had started and has been temporarily put on hold.
-    </div>
-  </div>
-
+  <h2>Open Source FEM Software</h2>
+  
   <script type="text/javascript">
-    function slideSwitch1() {
-        var $active = $('#product1 IMG.active');
-        var $next =  $active.next().length ? $active.next()
-        : $('#product1 IMG:first');
-
-        $active.addClass('last-active');
-
-        $next.css({opacity: 0.0})
-            .addClass('active')
-            .animate({opacity: 1.0}, 800, function() {
-                $active.removeClass('active last-active');
-            });
-    }
-    function slideSwitch2() {
-        var $active = $('#product2 IMG.active');
-        var $next =  $active.next().length ? $active.next()
-        : $('#product2 IMG:first');
-
-        $active.addClass('last-active');
-
-        $next.css({opacity: 0.0})
-            .addClass('active')
-            .animate({opacity: 1.0}, 800, function() {
-                $active.removeClass('active last-active');
-            });
-    }
-    function slideSwitch3() {
-        var $active = $('#product3 IMG.active');
-        var $next =  $active.next().length ? $active.next()
-        : $('#product3 IMG:first');
-
-        $active.addClass('last-active');
-
-        $next.css({opacity: 0.0})
-            .addClass('active')
-            .animate({opacity: 1.0}, 800, function() {
-                $active.removeClass('active last-active');
-            });
-    }
-
-    $(function() {
-        setInterval( "slideSwitch1()", 4500 );
-        setTimeout('setInterval( "slideSwitch2()", 4500 )', 1500);
-        setTimeout('setInterval( "slideSwitch3()", 4500 )', 3000);
+    window.addEvent('domready', function(){
+      var transition = 'alternate';
+      $$('input[name=transition]').addEvent('click', function(){ transition = this.value; });
+      var slideAvailable = ['slide-left', 'slide-right', 'slide-top', 'slide-bottom', 'fade'];
+      var slideTransition = function(){
+        switch(transition){
+          case 'alternate':
+            if(! $defined(this.count)) this.count = -1;
+            return slideAvailable[++this.count % slideAvailable.length];
+          case 'random': return slideAvailable.getRandom();
+          default: return transition;
+        }
+      }
+      
+      var slideshow = new BarackSlideshow('menu', 'pictures', 'loading', { transition: slideTransition, auto: true });
     });
   </script>
+    
+  <div id="slideshow">
+    <span id="loading">Loading</span>
+  
+    <ul id="pictures">
+      <li>
+        <div style="height:277px;background-color:white;">
+          <img width="150px" src="gallery/images/hermes2d-show/both_errors.png" alt="Hermes2D" title="Hermes2D" style="margin-left:15px; margin-right:-25px;"/>
+          <img width="130px" style="margin-top:25px; margin-right:-20px;" src="gallery/images/hermes2d-show/dynam-1-mesh.png" alt="Hermes2D" title="Hermes2D" />
+          <img width="110px" style="margin-top:50px; margin-right:-15px;" src="gallery/images/hermes2d-show/micro.png" alt="Hermes2D" title="Hermes2D" />
+          <img width="90px" style="margin-top:75px; margin-right:-10px;" src="gallery/images/hermes2d-show/mesh_irreg2.png" alt="Hermes2D" title="Hermes2D" />
+          <img width="70px" style="margin-top:100px;" src="gallery/images/hermes2d-show/neutro_3.png" alt="Hermes2D" title="Hermes2D" />
+        <div style="clear:both;height:15px;"></div>
+          <span style="font-size:1.2em;font-weight:bold;">Hermes2D</span> is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms are designed to solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear multiphysics PDE systems. The code is distributed under the GNU General Public License (Hermes2D and Hermes3D) and BSD License (Hermes1D).
+        </div></li>
+      <li>
+        <div style="height:277px;background-color:white;">
+          <img width="150px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png" alt="Agros2d" title="Agros2d" style="margin-left:15px; margin-right:-25px;"/>
+          <img width="130px" style="margin-top:25px; margin-right:-20px;" src="gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png" alt="Agros2d" title="Agros2d" />
+          <img width="110px" style="margin-top:50px; margin-right:-15px;" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png" alt="Agros2d" title="Agros2d" />
+          <img width="90px" style="margin-top:75px; margin-right:-10px;" src="gallery/images/agros2d-show/screenshot_macosx_order-170x170.png" alt="Agros2d" title="Agros2d" />
+          <img width="70px" style="margin-top:100px;" src="gallery/images/agros2d-show/screenshot_ubuntu_oneiric_particle_tracing-170x170.png" alt="Agros2d" title="Agros2d" />
+        <div style="clear:both;height:15px;"></div>
+          <span style="font-size:1.2em;font-weight:bold;">Agros2D</span> is a multiplatform C++ application for the solution of partial differential equations (PDE) based on the Hermes library, developed by the group at the University of West Bohemia in Pilsen. Agros2D is distributed under the GNU General Public License.
+        </div>
+      </li>
+      <li>
+        <div style="height:277px;background-color:white;">
+          <img width="150px" src="gallery/images/hermes3d-show/shock-sln.png" alt="Hermes3d" title="Hermes3d" style="margin-left:15px; margin-right:-25px;"/>
+          <img width="130px" style="margin-top:25px; margin-right:-20px;" src="gallery/images/hermes3d-show/bessel-sln.png" alt="Hermes3d" title="Hermes3d" />
+          <img width="110px" style="margin-top:50px; margin-right:-15px;" src="gallery/images/hermes3d-show/layer-mesh.png" alt="Hermes3d" title="Hermes3d" />
+          <img width="90px" style="margin-top:75px; margin-right:-10px;" src="gallery/images/hermes3d-show/layer-sln.png" alt="Hermes3d" title="Hermes3d" />
+          <img width="70px" style="margin-top:100px;" src="gallery/images/hermes3d-show/fichera-mesh.png" alt="Hermes3d" title="Hermes3d" />
+        <div style="clear:both;height:15px;"></div>
+          The aim of <span style="font-size:1.2em;font-weight:bold;">Hermes3D</span> is to extend the capabilities of Hermes2D to three spatial dimensions.
+          In particular, Hermes3D will offer automatic adaptive hp-FEM with arbitrary-level
+          hanging nodes, monolithic multimesh discretization of multiphysics coupled
+          problems, and adaptive hp-FEM with dynamically changing meshes for 3D
+          problems. The development had started and has been temporarily put on hold.
+        </div></li>
+    </ul>
+    
+    <ul id="menu">
+      <li><a href="gallery/images/hermes3d-show/bessel-sln.png"><span style="font-size:1.6em;">Hermes2D</span><br /><span style="font-size:0.9em;padding-right:10px;">advanced hp-FEM &amp; hp-DG C++ library</span></a></li>
+      <li><a href="../Source/images/cities/buenos_aires.jpg"><span style="font-size:1.6em;">Agros2D</span><br /><span style="font-size:0.9em;padding-right:10px;">graphical PDE Engineering tool</span></a></li>
+      <li><a href="../Source/images/cities/urubamba.jpg"><span style="font-size:1.6em;">Hermes3D</span><br /><span style="font-size:0.9em;padding-right:10px;">C++ library of adaptive hp-FEM methods for 3D problems</span></a></li>
+    </ul>
+  </div>
   
   <div style="clear:both"></div>
   <h2>Core Team</h2>
