@@ -152,9 +152,9 @@
 	magnitude (left) and time-dependent hp-mesh (right).
 
 	
-
-	<a href="../movies/gross-pitaevski/mag.avi"><img src="../movies/gross-pitaevski/mag.jpg" width=275px></a>
-	<a href="../movies/gross-pitaevski/mesh.avi"><img src="../movies/gross-pitaevski/mesh.jpg" width=300px></a><br>
+<div style="clear:both"></div>
+	<a href="../movies/gross-pitaevski/mag.avi" style="float:left;"><img src="../movies/gross-pitaevski/mag.jpg" width=275px></a>
+	<a href="../movies/gross-pitaevski/mesh.avi" style="float:left;"><img src="../movies/gross-pitaevski/mesh.jpg" width=300px></a><br>
 <div style="clear:both"></div>
 	<h3>Two-component incompressible viscous flow</h3>
 
