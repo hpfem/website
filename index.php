@@ -1,5 +1,12 @@
 <?php require_once('header.php');?>
 
+<script type="text/javascript" charset="utf-8" src="../slider/mootools-1.2.1-core-yc.js"></script>
+<script type="text/javascript" charset="utf-8" src="../slider/mootools-1.2.2.2-more.js"></script>    
+<script type="text/javascript" charset="utf-8" src="../slider/Fx.MorphList.js"></script>
+<script type="text/javascript" charset="utf-8" src="../slider/BarackSlideshow.js"></script>    
+<link rel="stylesheet" type="text/css" href="../slider/style.css" media="screen" />
+
+
 <div class="center">
   <h1> The hp-FEM Group</h1>
   <p>
