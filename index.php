@@ -43,7 +43,7 @@
   
     <ul id="pictures">
       <li>
-        <div style="height:277px;background-color:white;">
+        <div style="height:277px;background-color:#F8F8F8;">
           <img width="150px" src="gallery/images/hermes2d-show/both_errors.png" alt="Hermes2D" title="Hermes2D" style="margin-left:15px; margin-right:-25px;"/>
           <img width="130px" style="margin-top:25px; margin-right:-20px;" src="gallery/images/hermes2d-show/dynam-1-mesh.png" alt="Hermes2D" title="Hermes2D" />
           <img width="110px" style="margin-top:50px; margin-right:-15px;" src="gallery/images/hermes2d-show/micro.png" alt="Hermes2D" title="Hermes2D" />
@@ -53,7 +53,7 @@
           <span style="font-size:1.2em;font-weight:bold;">Hermes2D</span> is a C++ library for rapid development of adaptive hp-FEM / hp-DG solvers. Novel hp-adaptivity algorithms are designed to solve a large variety of problems ranging from ODE and stationary linear PDE to complex time-dependent nonlinear multiphysics PDE systems. The code is distributed under the GNU General Public License (Hermes2D and Hermes3D) and BSD License (Hermes1D).
         </div></li>
       <li>
-        <div style="height:277px;background-color:white;">
+        <div style="height:277px;background-color:#F8F8F8;">
           <img width="150px" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_chart-170x170.png" alt="Agros2d" title="Agros2d" style="margin-left:15px; margin-right:-25px;"/>
           <img width="130px" style="margin-top:25px; margin-right:-20px;" src="gallery/images/agros2d-show/screenshot_win7_levitation-170x170.png" alt="Agros2d" title="Agros2d" />
           <img width="110px" style="margin-top:50px; margin-right:-15px;" src="gallery/images/agros2d-show/screenshot_kubuntu_precise_pythonlab-170x170.png" alt="Agros2d" title="Agros2d" />
@@ -64,7 +64,7 @@
         </div>
       </li>
       <li>
-        <div style="height:277px;background-color:white;">
+        <div style="height:277px;background-color:#F8F8F8;">
           <img width="150px" src="gallery/images/hermes3d-show/shock-sln.png" alt="Hermes3d" title="Hermes3d" style="margin-left:15px; margin-right:-25px;"/>
           <img width="130px" style="margin-top:25px; margin-right:-20px;" src="gallery/images/hermes3d-show/bessel-sln.png" alt="Hermes3d" title="Hermes3d" />
           <img width="110px" style="margin-top:50px; margin-right:-15px;" src="gallery/images/hermes3d-show/layer-mesh.png" alt="Hermes3d" title="Hermes3d" />
