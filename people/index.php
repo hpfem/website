@@ -45,12 +45,6 @@
   <br />Nikola Mirkov (Institute of Nuclear Sciences, Belgrade, Serbia)
   </div>
 <div class="collaborator">
-  <a href="http://nuclear.tamu.edu/people/faculty/ragusa/">
-    <img src="photos/ragusa3.jpg" width=100px height=100px title="Jean Ragusa (Nuclear Engineering, Texas A&M University)">
-	<br />Jean Ragusa (Nuclear Engineering, Texas A&M University)
-  </a>
-  </div>
-<div class="collaborator">
   <a href="">
     <img src="photos/mateusz.jpg" width=100px height=100px title="Mateusz Paprocki">
 	<br />Mateusz Paprocki
@@ -74,7 +68,7 @@
 	<br />Sameer Regmi
   </a>
   </div>
-  <div style="clear:both"></div>
+
   
 <div class="collaborator">
   <a href="#">
@@ -82,6 +76,7 @@
 	<br />Ivo Hanak
   </a>
   </div>
+    <div style="clear:both"></div>
 <div class="collaborator">
   <a href="http://pda.jasnapaka.com/">
     <img src="photos/david_andrs.jpg" width=100px height=100px title="David Andrs">
@@ -112,13 +107,14 @@
 	<br />Martin Zitka
   </a>
   </div>
-  <div style="clear:both"></div>
+
 <div class="collaborator">
   <a href="http://marian.fsik.cvut.cz/~svacek/">
     <img src="photos/petr_svacek.jpg" width=100px height=100px title="Petr Svacek">
 	<br />Petr Svacek
   </a>
   </div>
+    <div style="clear:both"></div>
 <div class="collaborator">
   <a href="http://www.math.cas.cz/~vejchod/">
     <img src="photos/tomas_vejchodsky.jpg" width=100px height=100px title="Tomas Vejchodsky">

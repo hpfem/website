@@ -131,7 +131,7 @@ dd {
 }
 
 .headerTitle {
-  font-size: 46px;
+  font-size: 48px;
   letter-spacing:5px;
   margin-left:40px;
   font-weight: bold;
@@ -144,16 +144,18 @@ dd {
   font-weight: normal;
   font-style: italic;
   padding: 0;
+  position:relative;
+  top:-3px;
 }
 
 .headerSubTitle
 {
-  height:13px;
+  height:21px;
   }
 
 .headerSubTitle img
 {
-  width:25px;
+  width:37px;
 }
 
 .headerSubTitle span
