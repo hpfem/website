@@ -2,8 +2,9 @@
 <h3>Latest News</h3>
 <ul>
 <li>
-<b>2013</b>: In 2013, we prepare two international conferences:
+<b>2013</b>: In 2013, we prepare three international conferences:
 <ul>
+	<li><a href="http://femtec2013.femhub.com" target="blank">FEMTEC 2013</a></li>
 	<li>AMTEE/CPEE</li>
 	<li><a href="http://istet.zcu.cz/" target="blank">ISTET</a></li>
 </ul>	
