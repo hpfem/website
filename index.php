@@ -164,6 +164,11 @@
   </center>
   <p>
   <a href="http://www.nclab.com" target="blank">NCLab</a> is a third-party product that is not developed by our group at UNR.
+  <br />
+  <br />
+  
+  The group's <a href="https://github.com/hpfem/hermes/wiki" target="blank">How To collection</a>.
+  
 <!--
   <h3>The Dark Side of FEM</h3>
 
