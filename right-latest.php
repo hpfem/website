@@ -2,6 +2,12 @@
 <h3>Latest News</h3>
 <ul>
 <li>
+<b>Hermes 1.1</b> released
+<ul>
+	<li>Available from the <a href="https://github.com/hpfem/hermes" target="blank">Github repository</a></li>
+</ul>	
+</li>
+<li>
 <b>2013</b>: In 2013, we prepare three international conferences:
 <ul>
 	<li><a href="http://femtec2013.femhub.com" target="blank">FEMTEC 2013</a></li>

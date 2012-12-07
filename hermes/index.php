@@ -7,6 +7,16 @@
 
 <div class="center">
 	<h1>Hermes2D hp-FEM &amp; hp-DG library</h1>
+	
+	<h2>Download from Github repository</h2>
+	Version 1.1 released on December 07, 2012 which contains several new features and bugfixes:
+	<ul>
+		<li>Mixin utility classes both for the library internals and users
+		<li>Progress on separating the user from internal structures and unifying the API of linear, and nonlinear solvers
+		<li>Postprocessing calls - return a whole set of information about the solution
+		<li>Reference space and adaptivity candidates setup offers combination of h-, p-, hp- refined space and such candidates
+		<li>Progress on exception-safe API
+	</ul>
   
   <h2>Download from Github repository</h2>
 	<ul>
